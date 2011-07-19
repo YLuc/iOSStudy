@@ -1,0 +1,720 @@
+TTestPropertyDotNotation
+v7
+r0
+t331228186.272464
+cCheck dependencies
+cProcessInfoPlistFile /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist TestPropertyDotNotation-Info.plist
+cCompileXIB /Developer/codes.svn/TestPropertyDotNotation/MainWindow.xib
+cCompileXIB /Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+cProcessPCH /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch.gch TestPropertyDotNotation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o /Developer/codes.svn/TestPropertyDotNotation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o /Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation normal i386
+cGenerateDSYMFile /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+cTouch /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.h
+c000000004E0C52590000000000000236
+t1309430361
+s566
+i<UIKit/UIKit.h>
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+c000000004E0C52590000000000000AD2
+t1309430361
+s2770
+i"TestPropertyDotNotationAppDelegate.h"
+i"TestPropertyDotNotationViewController.h"
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h
+c000000004E0C696E000000000000019B
+t1309436270
+s411
+i<UIKit/UIKit.h>
+i"testProperty.h"
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+c000000004E0DCDAC0000000000000382
+t1309527468
+s898
+i"TestPropertyDotNotationViewController.h"
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.h
+c000000004E0DCBA50000000000000122
+t1309526949
+s290
+i<Foundation/Foundation.h>
+
+N/Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m
+c000000004E0DCB6B00000000000000EE
+t1309526891
+s238
+i"testProperty.h"
+
+N/Developer/Codes.svn/TestPropertyDotNotation/MainWindow.xib
+c000000004E0C52590000000000004EE9
+t1309430361
+s20201
+
+N/Developer/Codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+c000000004E0C68540000000000004D0E
+t1309435988
+s19726
+
+N/Developer/Codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch
+c000000004E0C525900000000000000D7
+t1309430361
+s215
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+t1309526964
+s272
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM
+t1309526964
+s102
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist
+t1309436050
+s661
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/MainWindow.nib
+t1309436050
+s1155
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/PkgInfo
+t1309436050
+s8
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+t1309526964
+s18916
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotationViewController.nib
+t1309436051
+s1720
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotation.LinkFileList
+c000000004E0DCAE100000000000002C7
+t1309526753
+s711
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+t1309526963
+s48840
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+t1309526964
+s35820
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+t1309526755
+s6316
+
+N/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+t1309526964
+s6816
+
+N/Developer/Codes.svn/TestPropertyDotNotation/main.m
+c000000004E0C52590000000000000170
+t1309430361
+s368
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004E08758E0000000000000132
+t1309177230
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.h
+c000000004E0C936B0000000000000236
+t1309447019
+s566
+i<UIKit/UIKit.h>
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+c000000004E0C936B0000000000000AD2
+t1309447019
+s2770
+i"TestPropertyDotNotationAppDelegate.h"
+i"TestPropertyDotNotationViewController.h"
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h
+c000000004E0C936B000000000000019B
+t1309447019
+s411
+i<UIKit/UIKit.h>
+i"testProperty.h"
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+c000000004E0DEC9900000000000003E0
+t1309535385
+s992
+i"TestPropertyDotNotationViewController.h"
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.h
+c000000004E0DEB800000000000000128
+t1309535104
+s296
+i<Foundation/Foundation.h>
+
+N/Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m
+c000000004E0DCEBF00000000000000EE
+t1309527743
+s238
+i"testProperty.h"
+
+N/Developer/codes.svn/TestPropertyDotNotation/MainWindow.xib
+c000000004E0C936B0000000000004EE9
+t1309447019
+s20201
+
+N/Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+c000000004E0DEC7F000000000000519D
+t1309535359
+s20893
+
+N/Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch
+c000000004E0C936B00000000000000D7
+t1309447019
+s215
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+t1309535386
+s272
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM
+t1309535386
+s102
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist
+t1309447019
+s661
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/MainWindow.nib
+t1309447019
+s1155
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/PkgInfo
+t1309447019
+s8
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+t1309535386
+s19064
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotationViewController.nib
+t1309535365
+s1849
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotation.LinkFileList
+c000000004E0DE60500000000000002C7
+t1309533701
+s711
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+t1309535108
+s48840
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+t1309535386
+s36436
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+t1309533702
+s6316
+
+N/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+t1309535108
+s6840
+
+N/Developer/codes.svn/TestPropertyDotNotation/main.m
+c000000004E0C936B0000000000000170
+t1309447019
+s368
+i<UIKit/UIKit.h>
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.h
+c000000004E0C52590000000000000236
+t1309430361
+s566
+i<UIKit/UIKit.h>
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+c000000004E0C52590000000000000AD2
+t1309430361
+s2770
+i"TestPropertyDotNotationAppDelegate.h"
+i"TestPropertyDotNotationViewController.h"
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h
+c000000004E0C696E000000000000019B
+t1309436270
+s411
+i<UIKit/UIKit.h>
+i"testProperty.h"
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+c000000004E0C8AE2000000000000033E
+t1309444834
+s830
+i"TestPropertyDotNotationViewController.h"
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h
+c000000004E0C6891000000000000012A
+t1309436049
+s298
+i<Foundation/Foundation.h>
+
+N/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m
+c000000004E0C66D600000000000000D1
+t1309435606
+s209
+i"testProperty.h"
+
+N/Users/lyf/codes/TestPropertyDotNotation/MainWindow.xib
+c000000004E0C52590000000000004EE9
+t1309430361
+s20201
+
+N/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+c000000004E0C68540000000000004D0E
+t1309435988
+s19726
+
+N/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch
+c000000004E0C525900000000000000D7
+t1309430361
+s215
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+t1309436051
+s204
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM
+t2
+s0
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist
+t1309436050
+s661
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/MainWindow.nib
+t1309436050
+s1155
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/PkgInfo
+t1309436050
+s8
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+t2
+s0
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotationViewController.nib
+t1309436051
+s1720
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotation.LinkFileList
+c000000004E0C689200000000000002B7
+t1309436050
+s695
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+t2
+s0
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+t2
+s0
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+t1309436052
+s6308
+
+N/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+t2
+s0
+
+N/Users/lyf/codes/TestPropertyDotNotation/main.m
+c000000004E0C52590000000000000170
+t1309430361
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch.gch
+t1309533702
+s10212912
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch.gch
+t1309436052
+s15232016
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch.gch
+t1309526754
+s15232016
+
+NTestPropertyDotNotation-Info.plist
+c000000004E0C936B000000000000038D
+t1309447019
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331228185#331228185#0(0"0(0#1#0"2567623312#0"0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331219763.780073
+e331219763.918606
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+x/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m331219763#331219763#0(0"0(0#0#89"/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m8611482752#2355"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch -c /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m -o /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331227908.384432
+e331227908.617914
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+x/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m331227908#331227908#0(0"0(0#0#89"/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m2567623312#2355"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch -c /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m -o /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331137634.754345
+e331137634.847757
+r0
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o
+x/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h:10,
+o                 from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m:10:
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'
+lSLF07#2@93"Compile /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m331137634#331137634#0(360"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h:10,                 from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m:10:/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'1(4@57"Expected specifier-qualifier-list before 'testedProperty'331137634#227#133#3(7@107"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m331137634#18446744073709551615#0#0(6@85"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m331123161#10#0#10#0#0"0(7@110"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h331137634#18446744073709551615#0#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h331129070#10#0#10#0#0"0(13@124"Expected specifier-qualifier-list before 'testedProperty' in /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331137634#18446744073709551615#0#0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#0"0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#19"expected * before *0(0#0#85"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m8314045422917021696#2311"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch -c /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationAppDelegate.m -o /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationAppDelegate.o1#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331219763.918727
+e331219764.135864
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+x/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331219763#331219764#0(0"0(0#0#92"/Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m8611233504#2361"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch -c /Developer/Codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m -o /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331228185.704559
+e331228186.079348
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+x/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331228185#331228186#0(0"0(0#0#92"/Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m2567623312#2361"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch -c /Developer/codes.svn/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m -o /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331137634.847870
+e331137635.151142
+r0
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o
+x/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h:10,
+o                 from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:9:
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m: In function '-[TestPropertyDotNotationViewController buttonPressed:]':
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: 'TestPropertyDotNotationViewController' may not respond to '-testClass'
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: (Messages without a matching method signature
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: will be assumed to return 'id' and accept
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: '...' as arguments.)
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:43: error: expected identifier before '}' token
+lSLF07#2@96"Compile /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137634#331137635#0(1249"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h:10,                 from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:9:/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m: In function '-[TestPropertyDotNotationViewController buttonPressed:]':/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: 'TestPropertyDotNotationViewController' may not respond to '-testClass'/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: (Messages without a matching method signature/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: will be assumed to return 'id' and accept/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:41: warning: '...' as arguments.)/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m:43: error: expected identifier before '}' token4(4@57"Expected specifier-qualifier-list before 'testedProperty'331137635#229#133#3(7@110"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137635#18446744073709551615#0#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137634#9#0#9#0#0"0(7@110"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h331137635#18446744073709551615#0#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.h331129070#10#0#10#0#0"0(13@124"Expected specifier-qualifier-list before 'testedProperty' in /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331137635#18446744073709551615#0#0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#0"0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#19"expected * before *0(22@71"'TestPropertyDotNotationViewController' may not respond to '-testClass'331137635#523#174#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137634#41#0#41#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331137635#697#148#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137634#41#0#41#0#0"0(4@36"Expected identifier before '}' token331137635#1112#137#0(6@88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m331137634#43#0#43#0#19"expected * before *0(0#0#88"/Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m8612950336#2317"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch -c /Users/lyf/codes/TestPropertyDotNotation/Classes/TestPropertyDotNotationViewController.m -o /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotationViewController.o1#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o /Developer/Codes.svn/TestPropertyDotNotation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331219555.229206
+e331219555.299499
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+x/Developer/Codes.svn/TestPropertyDotNotation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Developer/Codes.svn/TestPropertyDotNotation/main.m331219555#331219555#0(0"0(0#0#51"/Developer/Codes.svn/TestPropertyDotNotation/main.m8611648544#2287"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch -c /Developer/Codes.svn/TestPropertyDotNotation/main.m -o /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o /Developer/codes.svn/TestPropertyDotNotation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331226502.476390
+e331226502.631116
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+x/Developer/codes.svn/TestPropertyDotNotation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Developer/codes.svn/TestPropertyDotNotation/main.m331226502#331226502#0(0"0(0#0#51"/Developer/codes.svn/TestPropertyDotNotation/main.m4231192#2287"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch -c /Developer/codes.svn/TestPropertyDotNotation/main.m -o /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o /Users/lyf/codes/TestPropertyDotNotation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331128852.744510
+e331128852.891715
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o
+x/Users/lyf/codes/TestPropertyDotNotation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/lyf/codes/TestPropertyDotNotation/main.m331128852#331128852#0(0"0(0#0#47"/Users/lyf/codes/TestPropertyDotNotation/main.m8611147328#2243"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch -c /Users/lyf/codes/TestPropertyDotNotation/main.m -o /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o /Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331219764.135978
+e331219764.206681
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+x/Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m331219764#331219764#0(0"0(0#0#67"/Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m8613810112#2311"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch -c /Developer/Codes.svn/TestPropertyDotNotation/Classes/testProperty.m -o /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o /Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331227908.742276
+e331227908.831170
+r1
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+x/Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m331227908#331227908#0(0"0(0#0#67"/Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m2567623312#2311"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch -c /Developer/codes.svn/TestPropertyDotNotation/Classes/testProperty.m -o /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o0#
+
+CCompileC build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331137635.151246
+e331137635.213343
+r0
+xCompileC
+xbuild/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o
+x/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m:9:
+o/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'
+lSLF07#2@71"Compile /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m331137635#331137635#0(222"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m:9:/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h:17: error: expected specifier-qualifier-list before 'testedProperty'1(4@57"Expected specifier-qualifier-list before 'testedProperty'331137635#89#133#2(7@85"In file included from /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m331137635#18446744073709551615#0#0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m331128406#9#0#9#0#0"0(13@124"Expected specifier-qualifier-list before 'testedProperty' in /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331137635#18446744073709551615#0#0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#0"0(6@63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.h331128849#17#0#17#0#19"expected * before *0(0#0#63"/Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m8612622784#2267"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch -c /Users/lyf/codes/TestPropertyDotNotation/Classes/testProperty.m -o /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/testProperty.o1#
+
+CCompileXIB /Developer/Codes.svn/TestPropertyDotNotation/MainWindow.xib
+r0
+
+CCompileXIB /Developer/Codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+r0
+
+CCompileXIB /Developer/codes.svn/TestPropertyDotNotation/MainWindow.xib
+r0
+
+CCompileXIB /Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+s331228164.682513
+e331228166.009601
+r1
+xCompileXIB
+x/Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+lSLF07#2@52"CompileXIB TestPropertyDotNotationViewController.xib331228164#331228166#0(0"0(0#0#86"/Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib2567623312#658"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotationViewController.nib /Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/lyf/codes/TestPropertyDotNotation/MainWindow.xib
+s331128850.072408
+e331128850.669130
+r1
+xCompileXIB
+x/Users/lyf/codes/TestPropertyDotNotation/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib331128850#331128850#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/lyf/codes/TestPropertyDotNotation/MainWindow.xib8603447552#592"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/MainWindow.nib /Users/lyf/codes/TestPropertyDotNotation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+s331128850.669252
+e331128851.220038
+r1
+xCompileXIB
+x/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@52"CompileXIB TestPropertyDotNotationViewController.xib331128850#331128851#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#82"/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib8612157536#646"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotationViewController.nib /Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotationViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+s331219764.847292
+e331219764.927699
+r1
+xGenerateDSYMFile
+x/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM
+x/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+lSLF07#2@157"GenerateDSYMFile build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation331219764#331219764#0(0"0(0#0#124"/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation8615071168#449"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation -o /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM0#
+
+CGenerateDSYMFile /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+s331228186.238219
+e331228186.266217
+r1
+xGenerateDSYMFile
+x/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM
+x/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+lSLF07#2@157"GenerateDSYMFile build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation331228186#331228186#0(0"0(0#0#124"/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation2567623312#449"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation -o /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM0#
+
+CGenerateDSYMFile /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app.dSYM /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+r0
+
+CLd /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation normal i386
+s331219764.206788
+e331219764.847179
+r1
+xLd
+x/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+xnormal
+xi386
+lSLF07#2@129"Link /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation331219764#331219764#0(0"0(0#0#0"8613188896#1010"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -filelist /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation0#
+
+CLd /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation normal i386
+s331228186.079570
+e331228186.238112
+r1
+xLd
+x/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation
+xnormal
+xi386
+lSLF07#2@129"Link /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation331228186#331228186#0(0"0(0#0#0"2567623312#1010"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -filelist /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/Objects-normal/i386/TestPropertyDotNotation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation0#
+
+CLd /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/TestPropertyDotNotation normal i386
+r0
+
+CProcessInfoPlistFile /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist TestPropertyDotNotation-Info.plist
+r0
+
+CProcessInfoPlistFile /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist TestPropertyDotNotation-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist TestPropertyDotNotation-Info.plist
+s331128850.028489
+e331128850.072303
+r1
+xProcessInfoPlistFile
+x/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist
+xTestPropertyDotNotation-Info.plist
+lSLF07#2@42"Process TestPropertyDotNotation-Info.plist331128850#331128850#0(0"0(0#0#75"/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotation-Info.plist32651574044917876#533"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestPropertyDotNotation-Info.plist -genpkginfo /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app/Info.plist0#
+
+CProcessPCH /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch.gch TestPropertyDotNotation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s331226501.263440
+e331226502.476225
+r1
+xProcessPCH
+x/var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch.gch
+xTestPropertyDotNotation_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile TestPropertyDotNotation_Prefix.pch331226501#331226502#0(0"0(0#0#79"/Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch4717520#2157"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -c /Developer/codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch -o /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-dkeiqyyxlhucyagcutlbnfpmxegz/TestPropertyDotNotation_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch.gch TestPropertyDotNotation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s331128851.220248
+e331128852.744352
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch.gch
+xTestPropertyDotNotation_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile TestPropertyDotNotation_Prefix.pch331128851#331128852#0(0"0(0#0#75"/Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch8611796160#2117"    cd /Users/lyf/codes/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Users/lyf/codes/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -c /Users/lyf/codes/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-aidpheqaerrhridrblydnfvprpsi/TestPropertyDotNotation_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch.gch TestPropertyDotNotation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s331219553.809999
+e331219555.229064
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch.gch
+xTestPropertyDotNotation_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile TestPropertyDotNotation_Prefix.pch331219553#331219555#0(0"0(0#0#79"/Developer/Codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch8017666777668743168#2157"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-generated-files.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-own-target-headers.hmap -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-all-target-headers.hmap -iquote /Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/TestPropertyDotNotation-project-headers.hmap -F/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator -I/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/include -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources/i386 -I/Developer/Codes.svn/TestPropertyDotNotation/build/TestPropertyDotNotation.build/Debug-iphonesimulator/TestPropertyDotNotation.build/DerivedSources -c /Developer/Codes.svn/TestPropertyDotNotation/TestPropertyDotNotation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPropertyDotNotation_Prefix-fddtukhxploxwuflqinzocnwjzhc/TestPropertyDotNotation_Prefix.pch.gch0#
+
+CTouch /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+s331219764.927800
+e331219764.947024
+r1
+xTouch
+x/Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+lSLF07#2@106"Touch /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app331219764#331219764#0(0"0(0#0#0"8614368320#306"    cd /Developer/Codes.svn/TestPropertyDotNotation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app0#
+
+CTouch /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+s331228186.266384
+e331228186.272326
+r1
+xTouch
+x/Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+lSLF07#2@106"Touch /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app331228186#331228186#0(0"0(0#0#0"2567623312#306"    cd /Developer/codes.svn/TestPropertyDotNotation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/codes.svn/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app0#
+
+CTouch /Users/lyf/codes/TestPropertyDotNotation/build/Debug-iphonesimulator/TestPropertyDotNotation.app
+r0
+
