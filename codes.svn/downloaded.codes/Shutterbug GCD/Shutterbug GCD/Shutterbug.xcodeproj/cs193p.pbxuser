@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ShutterbugAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 420}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 634}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ShutterbugAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3136}}";
+			sepNavSelRange = "{773, 0}";
+			sepNavVisRange = "{343, 807}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Shutterbug */ = {
+		activeExec = 0;
+		executables = (
+			EC3CF82E127A455300D98631 /* Shutterbug */,
+		);
+	};
+	28C3AD890F43EF2300507BA6 /* Shutterbug.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						104.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {574, 220}}",
+							"{{579, 0}, {302, 220}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {881, 220}}",
+							"{{0, 225}, {881, 233}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {254, 218}}",
+							"{{259, 0}, {313, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						64.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						249.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						96.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						64.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-109, 0}, {866, 218}}";
+			};
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EC3CF82E127A455300D98631 /* Shutterbug */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Shutterbug */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Shutterbug */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = EC3CF83B127A457200D98631 /* Code sense */;
+		executables = (
+			EC3CF82E127A455300D98631 /* Shutterbug */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					644,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310435278;
+			PBXWorkspaceStateSaveDate = 310435278;
+		};
+		perUserProjectItems = {
+			EC1B50E21280E04B001AD6E7 /* PBXTextBookmark */ = EC1B50E21280E04B001AD6E7 /* PBXTextBookmark */;
+			EC1B50E51280E04B001AD6E7 /* PBXTextBookmark */ = EC1B50E51280E04B001AD6E7 /* PBXTextBookmark */;
+			EC1B50E61280E04B001AD6E7 /* PBXTextBookmark */ = EC1B50E61280E04B001AD6E7 /* PBXTextBookmark */;
+			EC1B50E81280E04B001AD6E7 /* PBXTextBookmark */ = EC1B50E81280E04B001AD6E7 /* PBXTextBookmark */;
+			EC1B50EB1280E04B001AD6E7 /* PBXTextBookmark */ = EC1B50EB1280E04B001AD6E7 /* PBXTextBookmark */;
+			EC1B51071280E0AD001AD6E7 /* PBXTextBookmark */ = EC1B51071280E0AD001AD6E7 /* PBXTextBookmark */;
+			EC1B51171280E36A001AD6E7 /* PBXTextBookmark */ = EC1B51171280E36A001AD6E7 /* PBXTextBookmark */;
+			EC1B51181280E36A001AD6E7 /* PBXTextBookmark */ = EC1B51181280E36A001AD6E7 /* PBXTextBookmark */;
+			EC1B51211280F93B001AD6E7 /* PBXTextBookmark */ = EC1B51211280F93B001AD6E7 /* PBXTextBookmark */;
+			EC1B51221280F93B001AD6E7 /* PBXTextBookmark */ = EC1B51221280F93B001AD6E7 /* PBXTextBookmark */;
+			EC1B51231280F93B001AD6E7 /* PBXTextBookmark */ = EC1B51231280F93B001AD6E7 /* PBXTextBookmark */;
+			EC1B51241280F93B001AD6E7 /* PBXTextBookmark */ = EC1B51241280F93B001AD6E7 /* PBXTextBookmark */;
+			EC1B51261280F93B001AD6E7 /* PBXTextBookmark */ = EC1B51261280F93B001AD6E7 /* PBXTextBookmark */;
+			EC3CF8B3127B798B00D98631 /* XDModelBookmark */ = EC3CF8B3127B798B00D98631 /* XDModelBookmark */;
+			EC3CF8B5127B798B00D98631 /* PBXTextBookmark */ = EC3CF8B5127B798B00D98631 /* PBXTextBookmark */;
+			EC3CF8BD127B798B00D98631 /* PBXTextBookmark */ = EC3CF8BD127B798B00D98631 /* PBXTextBookmark */;
+			EC3CF8BE127B798B00D98631 /* PBXTextBookmark */ = EC3CF8BE127B798B00D98631 /* PBXTextBookmark */;
+			EC5F8D09127B7B04001EE22E /* PBXTextBookmark */ = EC5F8D09127B7B04001EE22E /* PBXTextBookmark */;
+			EC742535127F6A15005688FC /* PBXTextBookmark */ = EC742535127F6A15005688FC /* PBXTextBookmark */;
+		};
+		sourceControlManager = EC3CF83A127A457200D98631 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EC1B50C61280DE50001AD6E7 /* PhotoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 326}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	EC1B50C71280DE50001AD6E7 /* PhotoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1274}}";
+			sepNavSelRange = "{2247, 0}";
+			sepNavVisRange = "{0, 591}";
+		};
+	};
+	EC1B50D91280E01D001AD6E7 /* FlickrAPIKey.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 349}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	EC1B50E21280E04B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF888127A4C1500D98631 /* PhotosByPhotographerTableViewController.h */;
+		name = "PhotosByPhotographerTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	EC1B50E51280E04B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF889127A4C1500D98631 /* PhotosByPhotographerTableViewController.m */;
+		name = "PhotosByPhotographerTableViewController.m: 50";
+		rLen = 0;
+		rLoc = 1578;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 1092;
+	};
+	EC1B50E61280E04B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ShutterbugAppDelegate.h */;
+		name = "ShutterbugAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 0;
+	};
+	EC1B50E81280E04B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF840127A466800D98631 /* Photographer.h */;
+		name = "Photographer.h: 17";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 150;
+	};
+	EC1B50EB1280E04B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF85C127A46D300D98631 /* CoreDataTableViewController.h */;
+		name = "CoreDataTableViewController.h: 40";
+		rLen = 64;
+		rLoc = 1657;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 846;
+	};
+	EC1B51071280E0AD001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC1B50D91280E01D001AD6E7 /* FlickrAPIKey.h */;
+		name = "FlickrAPIKey.h: 10";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 0;
+	};
+	EC1B51171280E36A001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC1B50C61280DE50001AD6E7 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 16";
+		rLen = 0;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	EC1B51181280E36A001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF83E127A466800D98631 /* Photo.h */;
+		name = "Photo.h: 23";
+		rLen = 77;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 30;
+	};
+	EC1B51211280F93B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC1B50C71280DE50001AD6E7 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 84";
+		rLen = 0;
+		rLoc = 2247;
+		rType = 0;
+		vrLen = 591;
+		vrLoc = 0;
+	};
+	EC1B51221280F93B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShutterbugAppDelegate.m */;
+		name = "ShutterbugAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 773;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 343;
+	};
+	EC1B51231280F93B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF83F127A466800D98631 /* Photo.m */;
+		name = "Photo.m: 48";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 1195;
+	};
+	EC1B51241280F93B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF846127A46C800D98631 /* FlickrFetcher.m */;
+		name = "FlickrFetcher.m: 23";
+		rLen = 0;
+		rLoc = 753;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 0;
+	};
+	EC1B51261280F93B001AD6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC1B50D91280E01D001AD6E7 /* FlickrAPIKey.h */;
+		name = "FlickrAPIKey.h: 10";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	EC3CF82E127A455300D98631 /* Shutterbug */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Shutterbug;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EC3CF83A127A457200D98631 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EC3CF83B127A457200D98631 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EC3CF83E127A466800D98631 /* Photo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 406}}";
+			sepNavSelRange = "{544, 77}";
+			sepNavVisRange = "{30, 599}";
+		};
+	};
+	EC3CF83F127A466800D98631 /* Photo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 812}}";
+			sepNavSelRange = "{1696, 0}";
+			sepNavVisRange = "{1195, 584}";
+		};
+	};
+	EC3CF840127A466800D98631 /* Photographer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 462}}";
+			sepNavSelRange = "{262, 0}";
+			sepNavVisRange = "{150, 541}";
+		};
+	};
+	EC3CF841127A466800D98631 /* Photographer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 602}}";
+			sepNavSelRange = "{1111, 0}";
+			sepNavVisRange = "{227, 918}";
+		};
+	};
+	EC3CF845127A46C800D98631 /* FlickrFetcher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 630}}";
+			sepNavSelRange = "{1701, 40}";
+			sepNavVisRange = "{257, 1490}";
+		};
+	};
+	EC3CF846127A46C800D98631 /* FlickrFetcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1258, 1904}}";
+			sepNavSelRange = "{753, 0}";
+			sepNavVisRange = "{520, 411}";
+		};
+	};
+	EC3CF85C127A46D300D98631 /* CoreDataTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 714}}";
+			sepNavSelRange = "{1657, 64}";
+			sepNavVisRange = "{846, 1416}";
+		};
+	};
+	EC3CF85D127A46D300D98631 /* CoreDataTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 4046}}";
+			sepNavSelRange = "{739, 0}";
+			sepNavVisRange = "{0, 818}";
+		};
+	};
+	EC3CF873127A4A2D00D98631 /* PhotographersTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 351}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{0, 391}";
+		};
+	};
+	EC3CF874127A4A2D00D98631 /* PhotographersTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 728}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 948}";
+		};
+	};
+	EC3CF888127A4C1500D98631 /* PhotosByPhotographerTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 349}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 419}";
+		};
+	};
+	EC3CF889127A4C1500D98631 /* PhotosByPhotographerTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 784}}";
+			sepNavSelRange = "{1578, 0}";
+			sepNavVisRange = "{1092, 545}";
+		};
+	};
+	EC3CF8B3127B798B00D98631 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28C3AD890F43EF2300507BA6 /* Shutterbug.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	EC3CF8B5127B798B00D98631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF845127A46C800D98631 /* FlickrFetcher.h */;
+		name = "FlickrFetcher.h: 42";
+		rLen = 40;
+		rLoc = 1701;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 257;
+	};
+	EC3CF8BD127B798B00D98631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF85D127A46D300D98631 /* CoreDataTableViewController.m */;
+		name = "CoreDataTableViewController.m: 23";
+		rLen = 0;
+		rLoc = 739;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 0;
+	};
+	EC3CF8BE127B798B00D98631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF873127A4A2D00D98631 /* PhotographersTableViewController.h */;
+		name = "PhotographersTableViewController.h: 9";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 0;
+	};
+	EC5F8D09127B7B04001EE22E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF841127A466800D98631 /* Photographer.m */;
+		name = "Photographer.m: 37";
+		rLen = 0;
+		rLoc = 1111;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 227;
+	};
+	EC742535127F6A15005688FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC3CF874127A4A2D00D98631 /* PhotographersTableViewController.m */;
+		name = "PhotographersTableViewController.m: 22";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+}
