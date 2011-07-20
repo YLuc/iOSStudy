@@ -6,15 +6,19 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FunctionCurvViewController.h"
+#import "FunctionCurveViewController.h"
 
 
-@implementation FunctionCurvViewController
+@implementation FunctionCurveViewController
 
 @synthesize  slider;
 @synthesize  functionCurveView;
 
-
+- (void)updateUI
+{
+	//self.slider.value = self.happiness;
+	[self.functionCurveView setNeedsDisplay];
+}
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -25,12 +29,13 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	[self updateUI];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -40,10 +45,8 @@
 }
 */
 
-- (void)updateUI
-{
-	//self.slider.value = self.happiness;
-	[self.functionCurveView setNeedsDisplay];
+-(IBAction)displayButtonPressed {
+	[self updateUI];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,7 @@
 //
 
 #import "CalculatorViewController.h"
-#import "FunctionCurvViewController.h"
+#import "FunctionCurveViewController.h"
 
 
 @interface CalculatorViewController()
@@ -107,7 +107,7 @@
 -(IBAction) graphPress:(UIButton *) sender
 {
 	if (!self.functionIsLegal) {
-		FunctionCurvViewController *functionVC = [[FunctionCurvViewController alloc] init];
+		FunctionCurveViewController *functionVC = [[FunctionCurveViewController alloc] init];
 		functionVC.title = [NSString stringWithFormat:@"this is 2nd view!"];
 		[self.navigationController pushViewController:functionVC animated:YES];
 		[functionVC release];

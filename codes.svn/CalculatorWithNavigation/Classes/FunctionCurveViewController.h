@@ -10,7 +10,7 @@
 #import "FunctionCurveView.h"
 
 
-@interface FunctionCurvViewController : UIViewController {
+@interface FunctionCurveViewController : UIViewController {
 @private
 	UISlider *slider;
 	FunctionCurveView *functionCurveView;
@@ -19,5 +19,7 @@
 
 @property (retain) IBOutlet UISlider *slider;
 @property (retain) IBOutlet FunctionCurveView *functionCurveView;
+
+-(IBAction) displayButtonPressed;
 
 @end

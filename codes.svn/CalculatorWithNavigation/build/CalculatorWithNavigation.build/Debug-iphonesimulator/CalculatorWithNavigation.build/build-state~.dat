@@ -1,19 +1,19 @@
 TCalculatorWithNavigation
 v7
 r0
-t332650447.682138
+t332755750.384070
 cCheck dependencies
 cProcessInfoPlistFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist CalculatorWithNavigation-Info.plist
 cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
 cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
+cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
 cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch CalculatorWithNavigation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o /Users/lyf/codes/CalculatorWithNavigation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation normal i386
-cGenerateDSYMFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-cTouch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
+cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
 c000000004DD419A40000000000000132
@@ -46,9 +46,9 @@ t1275359586
 s30700048
 
 N/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-c000000004E23914100000000000117E2
-t1310953793
-s71650
+c000000004E23FCAB0000000000012481
+t1310981291
+s74881
 
 N/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch
 c000000004E2399C700000000000000D9
@@ -70,17 +70,18 @@ s1743
 i"CalculatorBrain.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.h
-c000000004E239141000000000000032D
-t1310953793
-s813
+c000000004E23FC550000000000000398
+t1310981205
+s920
 i<UIKit/UIKit.h>
 i"CalculatorBrain.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m
-c000000004E2391410000000000000A7B
-t1310953793
-s2683
+c000000004E23FEF60000000000000BEC
+t1310981878
+s3052
 i"CalculatorViewController.h"
+i"FunctionCurvViewController.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.h
 c000000004E2399C70000000000000171
@@ -89,10 +90,76 @@ s369
 i<UIKit/UIKit.h>
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m
-c000000004E2399C700000000000009FB
-t1310955975
-s2555
+c000000004E23FF2C0000000000000B53
+t1310981932
+s2899
 i"CalculatorWithNavigationAppDelegate.h"
+i"CalculatorViewController.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.h
+c000000004E23EFC300000000000000EC
+t1310977987
+s236
+i<UIKit/UIKit.h>
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.m
+c000000004E23EFC300000000000005A4
+t1310977987
+s1444
+i"FunctionCurvView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.xib
+c000000004E23EFC3000000000000186B
+t1310977987
+s6251
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.h
+c000000004E24440A00000000000001D2
+t1310999562
+s466
+i<UIKit/UIKit.h>
+i"FunctionCurveView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m
+c000000004E2444910000000000000673
+t1310999697
+s1651
+i"FunctionCurvViewController.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
+c000000004E244650000000000000486D
+t1311000144
+s18541
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.h
+c000000004E2428A000000000000000E4
+t1310992544
+s228
+i<UIKit/UIKit.h>
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m
+c000000004E252EF600000000000005C5
+t1311059702
+s1477
+i"FunctionCurveView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.h
+c000000004E2539BE00000000000001F6
+t1311062462
+s502
+i<UIKit/UIKit.h>
+i"FunctionCurveView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m
+c000000004E253B5800000000000006B8
+t1311062872
+s1720
+i"FunctionCurveViewController.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+c000000004E2536840000000000004035
+t1311061636
+s16437
 
 N/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
 c000000004E2399C7000000000000215D
@@ -100,52 +167,80 @@ t1310955975
 s8541
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o
-t1310957647
+t1311062949
 s14336
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o
-t1310957647
-s47672
+t2
+s0
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList
-c000000004E23A04B00000000000002BA
-t1310957643
-s698
+c000000004E253BA1000000000000041C
+t1311062945
+s1052
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o
-t1310957647
-s46936
+t1311062949
+s50588
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvView.o
+t2
+s0
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o
+t1310999712
+s38820
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o
+t1311062950
+s37648
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o
+t1311062950
+s40020
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o
-t1310957647
+t1311062949
 s6308
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-t1310957647
-s238
+t2
+s0
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM
-t1310957647
-s102
+t2
+s0
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib
-t1310957644
-s7033
+t1311062947
+s7382
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-t1310957647
-s25912
+t2
+s0
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurvView.nib
+t2
+s0
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurvViewController.nib
+t1310998298
+s863
+
+N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurveViewController.nib
+t1311062948
+s1537
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist
-t1310957643
+t1311062945
 s665
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib
-t1310957644
+t1311062946
 s1001
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo
-t1310957643
+t1311062945
 s8
 
 N/Users/lyf/codes/CalculatorWithNavigation/main.m
@@ -155,7 +250,7 @@ s369
 i<UIKit/UIKit.h>
 
 N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch
-t1310957646
+t1311062949
 s15232016
 
 NCalculatorWithNavigation-Info.plist
@@ -165,11 +260,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332650443#332650443#0(0"0(0#1#0"8388331929962045440#0"0#
+lSLF07#2@18"Check dependencies332755745#332755745#0(0"0(0#1#0"8642352416#0"0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650447.209216
-e332650447.307626
+s332755749.839106
+e332755749.944865
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o
@@ -178,12 +273,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m332650447#332650447#0(0"0(0#0#67"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m8610468736#2304"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o0#
+lSLF07#2@75"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m332755749#332755749#0(0"0(0#0#67"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m8641104032#2304"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650447.307741
-e332650447.454746
-r1
+s332755749.945136
+e332755750.123650
+r0
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o
 x/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m
@@ -191,11 +286,238 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332650447#332650447#0(0"0(0#0#76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m8610868256#2322"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o0#
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:10:39: error: FunctionCurvViewController.h: No such file or directory
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m: In function '-[CalculatorViewController graphPress:]':
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: 'FunctionCurvViewController' undeclared (first use in this function)
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: (Each undeclared identifier is reported only once
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: for each function it appears in.)
+o/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: 'functionVC' undeclared (first use in this function)
+o{standard input}:915:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:915:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:909:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:909:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:901:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:901:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:895:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:895:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:884:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:884:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:873:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:873:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:866:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:866:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:857:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:857:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"
+o{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:845:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:845:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:841:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"
+o{standard input}:841:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:834:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:834:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:827:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:827:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:815:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:815:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:805:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:805:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:797:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:797:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:790:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:790:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:773:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:773:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:767:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:767:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:763:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"
+o{standard input}:763:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:756:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:756:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:748:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"
+o{standard input}:748:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:739:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:739:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:733:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:733:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:726:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:726:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:720:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:720:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000003$pb"
+o{standard input}:714:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:705:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"
+o{standard input}:705:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:697:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:697:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:691:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"
+o{standard input}:691:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:618:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:618:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:607:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:607:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:598:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:598:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:589:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:589:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:583:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:583:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:573:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:573:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:567:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:567:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:553:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:553:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:547:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:547:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:541:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:541:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:534:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:534:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:528:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:528:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:518:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:518:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:511:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:511:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:502:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:502:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:498:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:498:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:490:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:490:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:484:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:484:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:478:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:478:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:467:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:467:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:457:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:457:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:451:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:451:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:436:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:436:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:430:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:430:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:420:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:420:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:414:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:414:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:406:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:406:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:400:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:400:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:394:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:388:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:388:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:381:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:381:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:375:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:375:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:365:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:365:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:357:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:350:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:350:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:341:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:341:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:337:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:337:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:329:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:329:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:323:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:323:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:317:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:317:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:306:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:306:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:296:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:296:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:290:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:290:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:281:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:281:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:275:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:275:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:269:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:269:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:262:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:262:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:253:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:253:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:242:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:242:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
+o{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:215:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:215:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:208:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:208:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:199:non-relocatable subtraction expression, "LC3" minus "L00000000002$pb"
+o{standard input}:199:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:197:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:197:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:193:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
+o{standard input}:193:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:183:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:183:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:169:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:169:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:84:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:84:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:66:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:66:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:61:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:61:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol LC3
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr
+lSLF07#2@84"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332755749#332755750#0(26702"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:10:39: error: FunctionCurvViewController.h: No such file or directory/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m: In function '-[CalculatorViewController graphPress:]':/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: 'FunctionCurvViewController' undeclared (first use in this function)/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: (Each undeclared identifier is reported only once/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: for each function it appears in.)/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m:110: error: 'functionVC' undeclared (first use in this function){standard input}:915:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:915:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:909:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" minus "L00000000003$pb"{standard input}:909:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:901:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:901:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:895:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" minus "L00000000003$pb"{standard input}:895:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:884:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:884:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:873:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:873:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:866:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" minus "L00000000003$pb"{standard input}:866:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:857:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"{standard input}:857:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:845:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:845:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:841:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"{standard input}:841:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:834:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:834:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:827:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" minus "L00000000003$pb"{standard input}:827:symbol: "L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:815:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:815:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:805:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:805:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:797:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:797:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:790:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000003$pb"{standard input}:790:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:773:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:773:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:767:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:767:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:763:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000003$pb"{standard input}:763:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:756:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000003$pb"{standard input}:756:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:748:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"{standard input}:748:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:739:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:739:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:733:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:733:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:726:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:726:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:720:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:720:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:714:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000003$pb"{standard input}:714:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:705:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"{standard input}:705:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:697:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:697:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:691:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"{standard input}:691:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:618:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"{standard input}:618:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:607:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:607:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:598:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:598:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:589:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:589:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:583:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:583:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:573:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:573:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:567:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:567:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:559:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:559:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:553:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:553:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:547:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:547:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:541:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:541:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:534:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:534:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:528:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:528:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:518:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:518:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:511:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:511:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:502:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:502:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:498:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:498:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:490:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:490:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:484:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:484:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:478:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:478:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:467:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:467:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:457:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:457:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:451:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:451:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:436:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:436:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:430:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:430:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:420:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:420:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:414:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:414:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:406:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:406:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:400:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:400:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:394:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:388:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:388:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:381:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:381:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:375:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:375:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:365:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:365:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:357:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:357:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:350:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:350:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:341:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:341:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:337:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:337:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:329:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:329:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:323:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:323:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:317:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:317:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:306:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:306:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:296:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:296:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:290:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:290:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:281:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:281:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:275:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:275:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:269:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:269:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:262:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"{standard input}:262:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:253:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" minus "L00000000002$pb"{standard input}:253:symbol: "L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:242:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:242:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:215:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:208:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" minus "L00000000002$pb"{standard input}:208:symbol: "L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:199:non-relocatable subtraction expression, "LC3" minus "L00000000002$pb"{standard input}:199:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:197:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:197:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:193:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:193:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:183:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:183:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:169:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"{standard input}:169:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:84:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"{standard input}:84:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:66:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:66:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:61:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"{standard input}:61:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.brain$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol LC3{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.display$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.pointHasBeenPressed$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.storeDisplay$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_CalculatorViewController.storedNumber$non_lazy_ptr3(4@55"FunctionCurvViewController.h: No such file or directory332755750#0#147#0(6@76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332674678#10#0#10#0#28"*: No such file or directory0(4@68"'FunctionCurvViewController' undeclared (first use in this function)332755750#280#158#0(6@76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332674678#110#0#110#0#43"'*' undeclared (first use in this function)0(4@52"'functionVC' undeclared (first use in this function)332755750#700#142#0(6@76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332674678#110#0#110#0#43"'*' undeclared (first use in this function)0(0#0#76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m8643147648#2322"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o1#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650447.093746
-e332650447.209098
+s332755749.714551
+e332755749.838987
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o
@@ -204,11 +526,53 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m332650447#332650447#0(0"0(0#0#87"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m8605934880#2344"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o0#
+lSLF07#2@95"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m332755749#332755749#0(0"0(0#0#87"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m8641675968#2344"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o0#
+
+CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332692512.711880
+e332692512.925138
+r1
+xCompileC
+xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m332692512#332692512#0(0"0(0#0#78"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m8616567808#2326"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o0#
+
+CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332755750.233272
+e332755750.383974
+r1
+xCompileC
+xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m332755750#332755750#0(0"0(0#0#69"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m8640416736#2308"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o0#
+
+CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332755750.123765
+e332755750.233133
+r1
+xCompileC
+xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m332755750#332755750#0(0"0(0#0#79"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m8640632192#2328"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o /Users/lyf/codes/CalculatorWithNavigation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650446.969240
-e332650447.093631
+s332755749.637935
+e332755749.714431
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o
@@ -217,55 +581,79 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/lyf/codes/CalculatorWithNavigation/main.m332650446#332650447#0(0"0(0#0#48"/Users/lyf/codes/CalculatorWithNavigation/main.m8608667648#2274"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/main.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o0#
+lSLF07#2@56"Compile /Users/lyf/codes/CalculatorWithNavigation/main.m332755749#332755749#0(0"0(0#0#48"/Users/lyf/codes/CalculatorWithNavigation/main.m8642332704#2274"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/main.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-s332650444.029004
-e332650445.205403
+s332755746.254164
+e332755747.575484
 r1
 xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-lSLF07#2@39"CompileXIB CalculatorViewController.xib332650444#332650445#0(0"0(0#0#70"/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib8612064192#624"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@39"CompileXIB CalculatorViewController.xib332755746#332755747#0(0"0(0#0#70"/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib8621563328#624"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.xib
+r0
+
+CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
+s332691097.949354
+e332691098.537334
+r1
+xCompileXIB
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
+lSLF07#2@49"CompileXIB Classes/FunctionCurvViewController.xib332691097#332691098#0(0"0(0#0#80"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib8628160672#636"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurvViewController.nib /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+s332755747.575708
+e332755748.107945
+r1
+xCompileXIB
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+lSLF07#2@50"CompileXIB Classes/FunctionCurveViewController.xib332755747#332755748#0(0"0(0#0#81"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib8617614144#638"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurveViewController.nib /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
-s332650443.358259
-e332650444.028902
+s332755745.723979
+e332755746.254056
 r1
 xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib332650443#332650444#0(0"0(0#0#56"/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib8612037760#596"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib332755745#332755746#0(0"0(0#0#56"/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib8640580320#596"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CGenerateDSYMFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-s332650447.654611
-e332650447.677596
+s332753196.389765
+e332753196.435105
 r1
 xGenerateDSYMFile
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-lSLF07#2@160"GenerateDSYMFile build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332650447#332650447#0(0"0(0#0#123"/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation8608727072#443"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM0#
+lSLF07#2@160"GenerateDSYMFile build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332753196#332753196#0(0"0(0#0#123"/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation8628939840#443"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM0#
 
 CLd /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation normal i386
-s332650447.454854
-e332650447.654501
-r1
+s332755712.700191
+e332755712.874260
+r0
 xLd
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
 xnormal
 xi386
-lSLF07#2@128"Link /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332650447#332650447#0(0"0(0#0#0"8612419904#1000"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -filelist /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation0#
+oUndefined symbols:
+o  "_OBJC_CLASS_$_FunctionCurvViewController", referenced from:
+o      objc-class-ref-to-FunctionCurvViewController in CalculatorViewController.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@128"Link /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332755712#332755712#0(223"Undefined symbols:  "_OBJC_CLASS_$_FunctionCurvViewController", referenced from:      objc-class-ref-to-FunctionCurvViewController in CalculatorViewController.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@60""_OBJC_CLASS_$_FunctionCurvViewController", referenced from:332755712#19#63#0(6@0"332755712#0#0#0#0#0"0(13@74"Objc-class-ref-to-FunctionCurvViewController in CalculatorViewController.o332755712#82#81#0(6@0"332755712#0#0#0#0#0"0(13@19"Symbol(s) not found332755712#163#24#0(6@0"332755712#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status332755712#187#36#0(6@0"332755712#0#0#0#0#0"0(0#0#0"8600883328#1000"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -filelist /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation1#
 
 CProcessInfoPlistFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist CalculatorWithNavigation-Info.plist
-s332650443.342436
-e332650443.358158
+s332755745.689770
+e332755745.723876
 r1
 xProcessInfoPlistFile
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist
 xCalculatorWithNavigation-Info.plist
-lSLF07#2@43"Process CalculatorWithNavigation-Info.plist332650443#332650443#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation-Info.plist8612410976#539"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CalculatorWithNavigation-Info.plist -genpkginfo /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist0#
+lSLF07#2@43"Process CalculatorWithNavigation-Info.plist332755745#332755745#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation-Info.plist8640877984#539"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CalculatorWithNavigation-Info.plist -genpkginfo /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist0#
 
 CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch CalculatorWithNavigation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650445.205675
-e332650446.969087
+s332755748.108087
+e332755749.637770
 r1
 xProcessPCH
 x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch
@@ -274,13 +662,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@46"Precompile CalculatorWithNavigation_Prefix.pch332650445#332650446#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch8612891616#2146"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -c /Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch0#
+lSLF07#2@46"Precompile CalculatorWithNavigation_Prefix.pch332755748#332755749#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch8641269376#2146"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -c /Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch0#
 
 CTouch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-s332650447.677692
-e332650447.682093
+s332753196.435209
+e332753196.439559
 r1
 xTouch
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-lSLF07#2@104"Touch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app332650447#332650447#0(0"0(0#0#0"8607895968#301"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app0#
+lSLF07#2@104"Touch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app332753196#332753196#0(0"0(0#0#0"8624325920#301"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app0#
 

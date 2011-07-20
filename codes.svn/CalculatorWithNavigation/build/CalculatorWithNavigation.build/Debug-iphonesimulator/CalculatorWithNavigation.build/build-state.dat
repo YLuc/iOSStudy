@@ -1,18 +1,18 @@
 TCalculatorWithNavigation
 v7
 r0
-t332692513.014722
+t332833934.731016
 cCheck dependencies
 cProcessInfoPlistFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist CalculatorWithNavigation-Info.plist
 cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
 cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
+cCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
 cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch CalculatorWithNavigation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o /Users/lyf/codes/CalculatorWithNavigation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation normal i386
 cGenerateDSYMFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
@@ -80,11 +80,11 @@ i<UIKit/UIKit.h>
 i"CalculatorBrain.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m
-c000000004E23FEF60000000000000BEC
-t1310981878
-s3052
+c000000004E253BC70000000000000BEF
+t1311062983
+s3055
 i"CalculatorViewController.h"
-i"FunctionCurvViewController.h"
+i"FunctionCurveViewController.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.h
 c000000004E2399C70000000000000171
@@ -130,9 +130,9 @@ s1651
 i"FunctionCurvViewController.h"
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
-c000000004E2444B600000000000047F6
-t1310999734
-s18422
+c000000004E244650000000000000486D
+t1311000144
+s18541
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.h
 c000000004E2428A000000000000000E4
@@ -141,10 +141,28 @@ s228
 i<UIKit/UIKit.h>
 
 N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m
-c000000004E243C030000000000000649
-t1310997507
-s1609
+c000000004E252EF600000000000005C5
+t1311059702
+s1477
 i"FunctionCurveView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.h
+c000000004E2539BE00000000000001F6
+t1311062462
+s502
+i<UIKit/UIKit.h>
+i"FunctionCurveView.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m
+c000000004E253B5800000000000006B8
+t1311062872
+s1720
+i"FunctionCurveViewController.h"
+
+N/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+c000000004E25716500000000000060FC
+t1311076709
+s24828
 
 N/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
 c000000004E2399C7000000000000215D
@@ -152,20 +170,20 @@ t1310955975
 s8541
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o
-t1310957647
+t1311062949
 s14336
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o
-t1310999564
+t1311063043
 s50740
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList
-c000000004E243B43000000000000041B
-t1310997315
-s1051
+c000000004E253BA1000000000000041C
+t1311062945
+s1052
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o
-t1310981934
+t1311062949
 s50588
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvView.o
@@ -177,28 +195,32 @@ t1310999712
 s38820
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o
-t1310997508
+t1311062950
 s37648
 
+N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o
+t1311062950
+s40020
+
 N/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o
-t1310957647
+t1311062949
 s6308
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-t1310999713
+t1311141134
 s272
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM
-t1310999713
+t1311063043
 s102
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib
-t1310981881
-s7368
+t1311062947
+s7382
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-t1310999712
-s34556
+t1311063043
+s34892
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurvView.nib
 t2
@@ -208,16 +230,20 @@ N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/Calculato
 t1310998298
 s863
 
+N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurveViewController.nib
+t1311141134
+s1783
+
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist
-t1310957643
+t1311062945
 s665
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib
-t1310957644
+t1311062946
 s1001
 
 N/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo
-t1310957643
+t1311062945
 s8
 
 N/Users/lyf/codes/CalculatorWithNavigation/main.m
@@ -227,7 +253,7 @@ s369
 i<UIKit/UIKit.h>
 
 N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch
-t1310957646
+t1311062949
 s15232016
 
 NCalculatorWithNavigation-Info.plist
@@ -237,11 +263,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332692512#332692512#0(0"0(0#1#0"8615978944#0"0#
+lSLF07#2@18"Check dependencies332833933#332833933#0(0"0(0#1#0"8606769120#0"0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650447.209216
-e332650447.307626
+s332755749.839106
+e332755749.944865
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o
@@ -250,11 +276,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m332650447#332650447#0(0"0(0#0#67"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m8610468736#2304"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o0#
+lSLF07#2@75"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m332755749#332755749#0(0"0(0#0#67"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m8641104032#2304"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorBrain.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorBrain.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332692364.328477
-e332692364.516640
+s332755842.953001
+e332755843.253751
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o
@@ -263,11 +289,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332692364#332692364#0(0"0(0#0#76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m8609658912#2322"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o0#
+lSLF07#2@84"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m332755842#332755843#0(0"0(0#0#76"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m8639404800#2322"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorViewController.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332674733.889998
-e332674734.170055
+s332755749.714551
+e332755749.838987
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o
@@ -276,7 +302,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m332674733#332674734#0(0"0(0#0#87"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m3417791665935575040#2344"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o0#
+lSLF07#2@95"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m332755749#332755749#0(0"0(0#0#87"/Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m8641675968#2344"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/CalculatorWithNavigationAppDelegate.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigationAppDelegate.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -295,8 +321,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m332692512#332692512#0(0"0(0#0#78"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m8616567808#2326"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurvViewController.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332690308.607606
-e332690308.863357
+s332755750.233272
+e332755750.383974
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o
@@ -305,11 +331,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m332690308#332690308#0(0"0(0#0#69"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m8620062784#2308"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o0#
+lSLF07#2@77"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m332755750#332755750#0(0"0(0#0#69"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m8640416736#2308"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveView.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveView.o0#
+
+CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332755750.123765
+e332755750.233133
+r1
+xCompileC
+xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m332755750#332755750#0(0"0(0#0#79"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m8640632192#2328"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/FunctionCurveViewController.o0#
 
 CCompileC build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o /Users/lyf/codes/CalculatorWithNavigation/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650446.969240
-e332650447.093631
+s332755749.637935
+e332755749.714431
 r1
 xCompileC
 xbuild/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o
@@ -318,15 +357,15 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/lyf/codes/CalculatorWithNavigation/main.m332650446#332650447#0(0"0(0#0#48"/Users/lyf/codes/CalculatorWithNavigation/main.m8608667648#2274"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/main.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o0#
+lSLF07#2@56"Compile /Users/lyf/codes/CalculatorWithNavigation/main.m332755749#332755749#0(0"0(0#0#48"/Users/lyf/codes/CalculatorWithNavigation/main.m8642332704#2274"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch -c /Users/lyf/codes/CalculatorWithNavigation/main.m -o /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-s332674680.955823
-e332674682.047801
+s332755746.254164
+e332755747.575484
 r1
 xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
-lSLF07#2@39"CompileXIB CalculatorViewController.xib332674680#332674682#0(0"0(0#0#70"/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib30399714100969520#624"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@39"CompileXIB CalculatorViewController.xib332755746#332755747#0(0"0(0#0#70"/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib8621563328#624"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorViewController.nib /Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvView.xib
 r0
@@ -339,45 +378,53 @@ xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib
 lSLF07#2@49"CompileXIB Classes/FunctionCurvViewController.xib332691097#332691098#0(0"0(0#0#80"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib8628160672#636"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurvViewController.nib /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurvViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
+CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+s332833933.535739
+e332833934.725328
+r1
+xCompileXIB
+x/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib
+lSLF07#2@50"CompileXIB Classes/FunctionCurveViewController.xib332833933#332833934#0(0"0(0#0#81"/Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib8604817568#700"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/FunctionCurveViewController.nib /Users/lyf/codes/CalculatorWithNavigation/Classes/FunctionCurveViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
 CCompileXIB /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
-s332650443.358259
-e332650444.028902
+s332755745.723979
+e332755746.254056
 r1
 xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib332650443#332650444#0(0"0(0#0#56"/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib8612037760#596"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib332755745#332755746#0(0"0(0#0#56"/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib8640580320#596"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CGenerateDSYMFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-s332692512.973481
-e332692513.009786
+s332755843.310163
+e332755843.448572
 r1
 xGenerateDSYMFile
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
-lSLF07#2@160"GenerateDSYMFile build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332692512#332692513#0(0"0(0#0#123"/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation8616309600#443"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM0#
+lSLF07#2@160"GenerateDSYMFile build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332755843#332755843#0(0"0(0#0#123"/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation8615817408#443"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM0#
 
 CLd /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation normal i386
-s332692512.925620
-e332692512.973376
+s332755843.254059
+e332755843.310051
 r1
 xLd
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
 xnormal
 xi386
-lSLF07#2@128"Link /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332692512#332692513#0(0"0(0#0#0"8609191040#1000"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -filelist /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation0#
+lSLF07#2@128"Link /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation332755843#332755843#0(0"0(0#0#0"8639582304#1000"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -filelist /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/Objects-normal/i386/CalculatorWithNavigation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation0#
 
 CProcessInfoPlistFile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist CalculatorWithNavigation-Info.plist
-s332650443.342436
-e332650443.358158
+s332755745.689770
+e332755745.723876
 r1
 xProcessInfoPlistFile
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist
 xCalculatorWithNavigation-Info.plist
-lSLF07#2@43"Process CalculatorWithNavigation-Info.plist332650443#332650443#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation-Info.plist8612410976#539"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CalculatorWithNavigation-Info.plist -genpkginfo /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist0#
+lSLF07#2@43"Process CalculatorWithNavigation-Info.plist332755745#332755745#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation-Info.plist8640877984#539"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CalculatorWithNavigation-Info.plist -genpkginfo /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/Info.plist0#
 
 CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch CalculatorWithNavigation_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s332650445.205675
-e332650446.969087
+s332755748.108087
+e332755749.637770
 r1
 xProcessPCH
 x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch
@@ -386,13 +433,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@46"Precompile CalculatorWithNavigation_Prefix.pch332650445#332650446#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch8612891616#2146"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -c /Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch0#
+lSLF07#2@46"Precompile CalculatorWithNavigation_Prefix.pch332755748#332755749#0(0"0(0#0#77"/Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch8641269376#2146"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-generated-files.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-own-target-headers.hmap -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-all-target-headers.hmap -iquote /Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/CalculatorWithNavigation-project-headers.hmap -F/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator -I/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/include -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources/i386 -I/Users/lyf/codes/CalculatorWithNavigation/build/CalculatorWithNavigation.build/Debug-iphonesimulator/CalculatorWithNavigation.build/DerivedSources -c /Users/lyf/codes/CalculatorWithNavigation/CalculatorWithNavigation_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CalculatorWithNavigation_Prefix-foxygzcngqxowqagsbwgedlznbtc/CalculatorWithNavigation_Prefix.pch.gch0#
 
 CTouch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-s332692513.009880
-e332692513.014680
+s332833934.726479
+e332833934.730974
 r1
 xTouch
 x/Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app
-lSLF07#2@104"Touch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app332692513#332692513#0(0"0(0#0#0"8608954304#301"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app0#
+lSLF07#2@104"Touch /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app332833934#332833934#0(0"0(0#0#0"8606854816#363"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app0#
 
