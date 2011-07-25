@@ -1215,8 +1215,7 @@
       <font size="6">this view is redrawn each time setNeedsDisplay triggered, therefore, must be generic drawing!!</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1310988798433" ID="ID_1359651345" MODIFIED="1310989393391">
 <richcontent TYPE="NODE"><html>
@@ -1285,11 +1284,395 @@
       &#160;&#160;&#160;&#160;to refresh the view
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1310992176879" ID="ID_507903424" MODIFIED="1310992210886" TEXT="debug: run -&gt; console"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1311146774293" ID="ID_544788082" MODIFIED="1311146777161" POSITION="left" TEXT="7">
+<node CREATED="1311146777680" ID="ID_92498253" MODIFIED="1311146777680" TEXT="">
+<node CREATED="1311146777833" ID="ID_579643702" MODIFIED="1311177449098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">Some Miscellany</font></b>
+    </p>
+    <p>
+      <font color="#0000ff">Subtleties about IBOutlet Memory Management </font>
+    </p>
+    <p>
+      <font color="#0000ff">Initialization code options </font>
+    </p>
+    <p>
+      <font color="#0000ff">Memory Management Tips</font>
+    </p>
+    <p>
+      <b>Another &#8220;Controller of Controllers&#8221;</b>
+    </p>
+    <p>
+      UITabBarController
+    </p>
+    <p>
+      <b>iPad</b>
+    </p>
+    <p>
+      UISplitViewController
+    </p>
+    <p>
+      UIPopoverController
+    </p>
+    <p>
+      <b>Universal Application</b>
+    </p>
+    <p>
+      One binary runs on multiple (iPhone/iPod Touch and iPad) platforms
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311168886001" ID="ID_28264219" MODIFIED="1311168886001" TEXT="">
+<node CREATED="1311168886183" ID="ID_646493769" MODIFIED="1311175456997">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#160;&#160;&#20889;&#21040; .h &#20013;&#30340;&#25165;&#26159;&#26377;&#21487;&#33021; public&#30340;&#65292;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#23613;&#37327;&#35753; IBOutlet &#26159; private&#30340;&#65292;&#23601;&#26159;&#35753; @property&#19981;&#20986;&#29616;&#22312; .h &#25991;&#20214;&#20013;&#65292;&#24182;&#19988;&#25226; IBOutlet &#20889;&#21040; &#22768;&#26126;&#20013;
+    </p>
+    <p>
+      2&#160;&#160;dealloc&#20013;&#21482;&#20889; release&#65292;&#32780;&#19981;&#20889; &#23884;&#22871;&#30340;&#33258;&#24049;&#20889;&#30340;&#26041;&#27861;&#65292;&#22240;&#20026;dealloc&#26159;&#8220;&#36339;&#19979;&#24748;&#23830;&#30340;&#26368;&#21518;&#19968;&#21051;&#8221;&#65292;&#19981;&#35201;&#20570;&#36171;&#20540;nil&#31561;&#22797;&#26434;&#30340;&#24037;&#20316;&#65292;&#21482;&#24212;&#35813;&#31616;&#21333;&#30340;release
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .h&#20013;
+    </p>
+    <p>
+      @interface MyVC : UIViewController {
+    </p>
+    <p>
+      &#160;&#160;&#160; <b>IBOutlet</b>&#160;UILabel *outlet;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      @end
+    </p>
+    <p>
+      &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;
+    </p>
+    <p>
+      .m&#20013;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>@interface MyVC() </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;@property (retain) IBOutlet UILabel *outlet; </b>
+    </p>
+    <p>
+      <b>@end</b>
+    </p>
+    <p>
+      @implementation MyVC
+    </p>
+    <p>
+      @synthesize outlet;
+    </p>
+    <p>
+      - (void)<b>viewDidUnload</b>&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;self.outlet<b>&#160;= nil;</b>
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      - (void)<b>dealloc</b>&#160;{
+    </p>
+    <p>
+      &#160; <b>&#160;&#160;[outlet release];</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[super dealloc];
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      @end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff3300">&#35760;&#20303;&#36825;&#20004;&#20010;&#20889;&#27861;&#12290;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311175166852" ID="ID_1302862191" MODIFIED="1311175425364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32780;&#19981;&#26159;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @interface MyVC : UIViewController {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UILabel *outlet;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      @property (retain) IBOutlet UILabel *outlet;
+    </p>
+    <p>
+      @end
+    </p>
+    <p>
+      &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;
+    </p>
+    <p>
+      @implementation MyVC
+    </p>
+    <p>
+      @synthesize outlet;
+    </p>
+    <p>
+      - (void)releaseOutlets {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;self.outlet = nil;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      - (void)viewDidUnload {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[self releaseOutlets];
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      - (void)dealloc {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[self releaseOutlets];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[super dealloc];
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      @end
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1311177461086" ID="ID_1622208717" MODIFIED="1311495395574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      viewController&#30340;
+    </p>
+    <p>
+      &#22235;&#20010; initialization &#30340;&#20301;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1311177478450" ID="ID_1784192773" MODIFIED="1311178491463">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      - (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle; (i.e. override it)
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;designated initializer&#65292;&#19982; model &#26377;&#20851;&#30340;&#37096;&#20998;&#20889;&#22312;&#36825;&#37324; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#22914;&#26524;&#19981;&#26159;&#29992; IB &#24314;&#36896;&#30340; ViewController&#30340; &#21021;&#22987;&#21270;&#65292;&#20063;&#22312;&#36825;&#37324; </b>
+    </p>
+    <p>
+      - (void)awakeFromNib
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#29992;IB&#24314;&#36896;&#30340; ViewController&#30340;&#21021;&#22987;&#21270;&#65288;&#19981;&#26159;&#29992; &#25163;&#24037; alloc]init] &#26041;&#27861;&#24314;&#31435;&#30340;&#65289;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - (void)viewDidLoad
+    </p>
+    <p>
+      <b>&#160;&#160;&#19982;view&#26377;&#20851;&#30340; </b>
+    </p>
+    <p>
+      <b>&#160;&#65288; &#35813;method&#21487;&#33021;&#34987;call&#22810;&#27425;&#65292;&#22240;&#20026;&#20869;&#23384;&#19981;&#22815;&#65292;&#34987;&#35843;&#20986;&#20869;&#23384; unloaded&#65292;&#20877;&#34987;call&#65292;&#37325;&#26032;&#36733;&#20837;&#65289;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - (void)viewWillAppear:(BOOL)animated;
+    </p>
+    <p>
+      <b>&#160;&#160;&#29992;&#21040;&#19982;view&#30340;&#20960;&#20309;&#24418;&#29366;&#26377;&#20851;&#30340;&#21442;&#25968;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1311386648537" ID="ID_563333658" MODIFIED="1311386655361" TEXT="Memory management tips">
+<node CREATED="1311386656564" ID="ID_1054871612" MODIFIED="1311386656564" TEXT="">
+<node CREATED="1311386657692" ID="ID_389732285" MODIFIED="1311387044866">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        &#23613;&#37327;&#19981;&#29992; allloc init&#65292;&#22240;&#20026;&#21487;&#33021;&#24536;&#35760; autorelease&#65292;&#32780;&#29992;&#20854;&#20182;&#24050;&#32463;&#33021;&#22815;&#36820;&#22238;autorelease&#30340;&#24314;&#36896;obj&#30340;method&#20135;&#29983;obj&#160;
+      </li>
+      <li>
+        &#23613;&#37327;&#29992;immutable&#30340;
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1311387049508" ID="ID_1953158318" MODIFIED="1311387051100" POSITION="left" TEXT="8">
+<node CREATED="1311387052093" ID="ID_833071424" MODIFIED="1311387913930">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gesture Recognizers
+    </p>
+    <p>
+      <b>How to get &#8220;input&#8221; into your UIView</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Demo
+    </p>
+    <p>
+      Universal Application
+    </p>
+    <p>
+      UISplitViewController
+    </p>
+    <p>
+      <b>Handling pinch gesture </b>
+    </p>
+    <p>
+      <b>Handling device rotation (shouldAutorotate... and springs and struts)</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1311387052231" ID="ID_169707907" MODIFIED="1311387916954" TEXT="">
+<node CREATED="1311387052411" ID="ID_1947372472" MODIFIED="1311495442781">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3300">demo </font>
+    </p>
+    <p>
+      <font color="#ff3300">&#28155;&#21152;&#26059;&#36716;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1311395225778" ID="ID_865380286" MODIFIED="1311497161433">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#160;&#160;&#160;viewController&#20013;&#21152; shouldAutorotateToInterfaceOrientation
+    </p>
+    <p>
+      2. &#38656;&#35201;&#25226;&#27599;&#20010;view&#37117;&#35843;&#25972;
+    </p>
+    <p>
+      3. bound&#21464;&#21270;&#21518;&#65292;redraw&#12290;&#21542;&#21017;&#19981;&#33021;&#20445;&#35777;&#32437;&#27178;&#27604;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#22312; initWithView
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#21644;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;awakeFromNib
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#21152;&#20837; property <b>UIViewContentModeRedraw&#65311;</b>
+    </p>
+    <p>
+      4.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
