@@ -103,8 +103,8 @@
 </node>
 <node CREATED="1309163679255" ID="ID_93751033" MODIFIED="1309163680678" TEXT="t is strongly recommended that you choose  Hide Others from Interface Builder&#x2019;s main menu so that all other applications are  hidden.  It makes it a lot easier to see what&#x2019;s going on in Interface Builder. "/>
 <node CREATED="1309223744282" ID="ID_264757298" MODIFIED="1309223746030" TEXT="As mentioned above, using a string that has the  same meaning both in your Model and your View is probably a bad idea, but in order to  keep this implementation simple, we&#x2019;ll do it anyway."/>
-<node CREATED="1309152380360" ID="ID_1932777860" MODIFIED="1309152382282" TEXT="">
-<icon BUILTIN="help"/>
+<node CREATED="1309152380360" ID="ID_1932777860" MODIFIED="1311674480015" TEXT="">
+<icon BUILTIN="yes"/>
 <node CREATED="1308839830369" ID="ID_1624430447" MODIFIED="1309152400779">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -144,6 +144,7 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1311674439792" ID="ID_1064032997" MODIFIED="1311674446788" TEXT="&#x662f;&#x4e00;&#x4e2a; getter"/>
 </node>
 </node>
 <node CREATED="1309870958509" ID="ID_1295807040" MODIFIED="1309870958509" TEXT="">
@@ -1513,8 +1514,7 @@
       &#22235;&#20010; initialization &#30340;&#20301;&#32622;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1311177478450" ID="ID_1784192773" MODIFIED="1311178491463">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1578,8 +1578,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1618,9 +1617,12 @@
       <b>Handling device rotation (shouldAutorotate... and springs and struts)</b>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1311387052231" ID="ID_169707907" MODIFIED="1311387916954" TEXT="">
+</html></richcontent>
+<node CREATED="1311680645288" ID="ID_42739831" MODIFIED="1311680645288" TEXT="">
+<node CREATED="1311680647631" ID="ID_994026964" MODIFIED="1311680662333" TEXT="Demo">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1311387052231" ID="ID_169707907" MODIFIED="1311680666766" TEXT="">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1311387052411" ID="ID_1947372472" MODIFIED="1311495442781">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1634,10 +1636,9 @@
       <font color="#ff3300">&#28155;&#21152;&#26059;&#36716;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311395225778" ID="ID_865380286" MODIFIED="1311497161433">
+<node CREATED="1311395225778" ID="ID_865380286" MODIFIED="1311677956471">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1665,15 +1666,113 @@
       
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#21152;&#20837; property <b>UIViewContentModeRedraw&#65311;</b>
+      &#160;&#160;&#160;&#160;&#21152;&#20837; property <b>UIViewContentModeRedraw,&#26159;UIView&#30340;property</b>
     </p>
     <p>
-      4.
+      4.&#38450;&#27490;&#37322;&#25918;&#20102;view&#65292;&#21487;&#20197;&#25913;&#20889; release &#32780;&#29992; if (! view) view alloc init&#30340;&#26041;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1311665301874" ID="ID_962304057" MODIFIED="1311665365786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setNeedsDisplay &#35843;&#29992;&#21518;&#19981;&#26159;&#39532;&#19978;&#65288;&#22312;&#19979;&#19968;&#34892;&#20043;&#34892;&#21069;&#65289;&#23601; redraw&#32780;&#26159;&#31561;&#24456;&#20037;&#12290;
+    </p>
+    <p>
+      &#25152;&#20197;&#65292;&#20889;&#22312;&#38543;&#21518;&#19968;&#34892;&#30340;&#20195;&#30721;&#32943;&#23450;&#21487;&#20197;&#20808;&#25191;&#34892;&#12290;
+    </p>
+  </body>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1311670356158" ID="ID_526996293" MODIFIED="1311670385902">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">gesture</font>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1311670380476" ID="ID_1613582225" MODIFIED="1311677326451">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#160;&#160;handler &#21152;&#22312; view&#24403;&#20013;
+    </p>
+    <p>
+      pinch
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2.&#160;&#160;viewController&#20013;
+    </p>
+    <p>
+      &#22312; viewDidLoad&#20013;&#21152;&#20837;
+    </p>
+    <p>
+      &#160;&#160;&#160;UIGestureRecognizer *pangr =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[[UIPanGestureRecognizer alloc] initWithTarget:panView action:@selector(pan:)];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[panView addGestureRecognizer:pangr];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[pangr release];
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311674539290" ID="ID_1434938112" MODIFIED="1311674551386" TEXT="option&#x952e; &#x5c31;&#x662f; win&#x952e;"/>
+</node>
+</node>
+<node CREATED="1311670356158" ID="ID_581810128" MODIFIED="1311675137860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ipad
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1311670380476" ID="ID_966025255" MODIFIED="1311675163664">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24038;&#36793;&#26639; target&#160;&#160;-&gt; &#21491;&#38190; get info
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311674539290" ID="ID_1088152878" MODIFIED="1311674551386" TEXT="option&#x952e; &#x5c31;&#x662f; win&#x952e;"/>
+</node>
+<node CREATED="1311675716101" ID="ID_957349821" MODIFIED="1311675742171" TEXT="&#x5de6;&#x4e0a;&#x89d2;&#x7f16;&#x8bd1;&#x7684;&#x9009;&#x62e9;&#x6309;&#x94ae;">
+<node CREATED="1311675771615" ID="ID_443270866" MODIFIED="1311675791625" TEXT="&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x8fd0;&#x884c;&#xff0c;&#x4f46;&#x662f;&#x4e0d;&#x80fd;&#x591f;&#x5229;&#x7528;&#x5bbd;&#x5ea6;&#x540c;&#x65f6;&#x663e;&#x793a;&#x591a;&#x4e2a;view"/>
+</node>
+<node CREATED="1311676989800" ID="ID_1584638892" MODIFIED="1311677460580" TEXT="UI_USER_INTERFACE_IDIOM"/>
+</node>
+<node CREATED="1311680640829" ID="ID_1054899461" MODIFIED="1311680640829" TEXT=""/>
+</node>
+<node CREATED="1311680670819" ID="ID_946558359" MODIFIED="1311680700345" TEXT="&quot;universual psychologist&quot;"/>
 </node>
 </node>
 </node>
