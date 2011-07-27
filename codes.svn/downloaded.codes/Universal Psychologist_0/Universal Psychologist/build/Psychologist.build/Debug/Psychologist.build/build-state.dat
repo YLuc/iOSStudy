@@ -1,0 +1,81 @@
+TPsychologist
+v7
+r0
+t333355138.275332
+cCheck dependencies
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/HappinessViewController.xib
+c000000004E2666430000000000005411
+t1311139395
+s21521
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/MainWindow.xib
+c000000004E2666430000000000002121
+t1311139395
+s8481
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/PsychologistViewController.xib
+c000000004E26664300000000000061D1
+t1311139395
+s25041
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/Resources-iPad/MainWindow-iPad.xib
+c000000004E2666430000000000002406
+t1311139395
+s9222
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Resources/HappinessViewController.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Resources/MainWindow-iPad.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Resources/PsychologistViewController.nib
+t2
+s0
+
+NPsychologist-Info.plist
+c000000004E26664300000000000003CE
+t1311139395
+s974
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333355649#333355649#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'333355649#18446744073709551615#0#0(1@0"0(0#1#0"8606099584#0"0#
+
+CCompileXIB "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/HappinessViewController.xib"
+r0
+
+CCompileXIB "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/MainWindow.xib"
+r0
+
+CCompileXIB "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/PsychologistViewController.xib"
+r0
+
+CCompileXIB "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/Resources-iPad/MainWindow-iPad.xib"
+r0
+
+CProcessInfoPlistFile "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app/Contents/Info.plist" Psychologist-Info.plist
+r0
+
+CTouch "/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Universal Psychologist_0/Universal Psychologist/build/Debug/Psychologist.app"
+r0
+

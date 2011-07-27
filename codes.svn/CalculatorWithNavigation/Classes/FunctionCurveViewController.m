@@ -33,6 +33,11 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	UIGestureRecognizer *pinchgr = [[UIPinchGestureRecognizer alloc] initWithTarget:self.functionCurveView action:@selector(pinch:)];
+	[self.functionCurveView addGestureRecognizer:pinchgr];
+	[pinchgr release];	
+	
 	[self updateUI];
 }
 
@@ -63,6 +68,10 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+	return YES;
+}
 
 - (void)dealloc {
     [super dealloc];

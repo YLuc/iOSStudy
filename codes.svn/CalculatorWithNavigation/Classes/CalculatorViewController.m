@@ -114,6 +114,11 @@
 	}
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+	return YES;
+}
+
 -(void)dealloc{
 	[brain release];
 	[super dealloc];

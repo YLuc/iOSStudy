@@ -11,13 +11,25 @@
 
 @implementation FunctionCurveView
 
+- (void)setup
+{
+	self.contentMode = UIViewContentModeRedraw;
+}
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
+		[self setup];
     }
     return self;
 }
+
+- (void)awakeFromNib
+{
+	[self setup];
+}
+
+
 
 - (void)drawLineFrom:(CGPoint)startPoint to:(CGPoint)endPoint withContext:(CGContextRef)context {
 	UIGraphicsPushContext(context);
@@ -49,8 +61,19 @@
 	startPoint.y = endPoint.y = self.bounds.origin.y + self.bounds.size.height / 2;
 	[self drawLineFrom: startPoint to:endPoint withContext: context];
 	
+	//scaler
+	
+	
 }
 
+- (void)pinch:(UIPinchGestureRecognizer *)gesture
+{
+	if ((gesture.state == UIGestureRecognizerStateChanged) ||
+		(gesture.state == UIGestureRecognizerStateEnded)) {
+		//self.scale *= gesture.scale;
+		gesture.scale = 1;
+	}
+}
 
 - (void)dealloc {
     [super dealloc];

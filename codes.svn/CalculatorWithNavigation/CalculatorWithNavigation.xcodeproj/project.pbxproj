@@ -61,16 +61,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1D3623240D0F684500981E51 /* CalculatorWithNavigationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CalculatorWithNavigationAppDelegate.m */,
 				1C88F28C13D4602000D66C9A /* FunctionCurveView.h */,
 				1C88F28D13D4602000D66C9A /* FunctionCurveView.m */,
 				1C7F091B13D427A3001F328F /* FunctionCurveViewController.h */,
 				1C7F091C13D427A3001F328F /* FunctionCurveViewController.m */,
-				1D3623240D0F684500981E51 /* CalculatorWithNavigationAppDelegate.h */,
-				1D3623250D0F684500981E51 /* CalculatorWithNavigationAppDelegate.m */,
-				1CAA537813D3D21C0034EF47 /* CalculatorBrain.h */,
-				1CAA537913D3D21C0034EF47 /* CalculatorBrain.m */,
 				1CAA537A13D3D21C0034EF47 /* CalculatorViewController.h */,
 				1CAA537B13D3D21C0034EF47 /* CalculatorViewController.m */,
+				1CAA537813D3D21C0034EF47 /* CalculatorBrain.h */,
+				1CAA537913D3D21C0034EF47 /* CalculatorBrain.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
