@@ -1,0 +1,227 @@
+TImaginarium
+v7
+r0
+t333535555.359697
+cCheck dependencies
+cProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Info.plist Imaginarium-Info.plist
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Imaginarium.app/ipod.jpg ipod.jpg
+cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch.gch Imaginarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/ImaginariumAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium normal i386
+cGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium
+cTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004DD419A40000000000000132
+t1305745828
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.h
+c000000004E2666430000000000000189
+t1311139395
+s393
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m
+c000000004E2666430000000000000459
+t1311139395
+s1113
+i"ImaginariumAppDelegate.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Imaginarium_Prefix.pch
+c000000004E26664300000000000000BF
+t1311139395
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+c000000004E266643000000000000211C
+t1311139395
+s8476
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app
+t1311842755
+s238
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app.dSYM
+t1311842755
+s102
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium
+t1311842755
+s15580
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Info.plist
+t1311842751
+s607
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/MainWindow.nib
+t1311842752
+s988
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/PkgInfo
+t1311842751
+s8
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/ipod.jpg
+t1311842752
+s202774
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/Imaginarium.LinkFileList
+c000000004E3121BF000000000000016E
+t1311842751
+s366
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/ImaginariumAppDelegate.o
+t1311842754
+s48340
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/main.o
+t1311842754
+s6392
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/ipod.jpg
+c000000004E2666430000000000031816
+t1311139395
+s202774
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m
+c000000004E2666430000000000000175
+t1311139395
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch.gch
+t1311842754
+s15232016
+
+NImaginarium-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333535551#333535551#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/ImaginariumAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333535554.659128
+e333535554.910389
+r1
+xCompileC
+xbuild/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/ImaginariumAppDelegate.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m333535554#333535554#0(0"0(0#0#115"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m8606403840#2571"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/ImaginariumAppDelegate.o0#
+
+CCompileC build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333535554.445738
+e333535554.659018
+r1
+xCompileC
+xbuild/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/main.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m333535554#333535554#0(0"0(0#0#89"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m8605923360#2527"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+s333535551.389462
+e333535552.116769
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib333535551#333535552#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#97"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib8606917920#768"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/MainWindow.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Imaginarium.app/ipod.jpg ipod.jpg
+s333535552.116867
+e333535552.152703
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Imaginarium.app/ipod.jpg
+xipod.jpg
+lSLF07#2@13"Copy ipod.jpg333535552#333535552#0(0"0(0#0#91"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/ipod.jpg8606642400#650"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/ipod.jpg /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app0#
+
+CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium
+s333535555.273683
+e333535555.337406
+r1
+xGenerateDSYMFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app.dSYM
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Imaginarium.app.dSYM build/Debug-iphonesimulator/Imaginarium.app/Imaginarium333535555#333535555#0(0"0(0#0#138"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium8602973408#589"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app.dSYM0#
+
+CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium normal i386
+s333535554.910490
+e333535555.273573
+r1
+xLd
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium
+xnormal
+xi386
+lSLF07#2@143"Link /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium333535554#333535555#0(0"0(0#0#0"8606225504#1202"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator -filelist /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Objects-normal/i386/Imaginarium.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Imaginarium0#
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Info.plist Imaginarium-Info.plist
+s333535551.355959
+e333535551.389357
+r1
+xProcessInfoPlistFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Info.plist
+xImaginarium-Info.plist
+lSLF07#2@30"Process Imaginarium-Info.plist333535551#333535551#0(0"0(0#0#105"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Imaginarium-Info.plist32088563964051560#685"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Imaginarium-Info.plist -genpkginfo /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app/Info.plist0#
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch.gch Imaginarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333535552.152915
+e333535554.445542
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch.gch
+xImaginarium_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Imaginarium_Prefix.pch333535552#333535554#0(0"0(0#0#105"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Imaginarium_Prefix.pch8606518048#2371"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/Imaginarium-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphonesimulator/Imaginarium.build/DerivedSources -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Imaginarium_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-fjjytpkfpdhevdbclquzdkmkwith/Imaginarium_Prefix.pch.gch0#
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app
+s333535555.337505
+e333535555.359642
+r1
+xTouch
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app
+lSLF07#2@132"Touch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app333535555#333535555#0(0"0(0#0#0"8602820608#432"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphonesimulator/Imaginarium.app0#
+

@@ -1,0 +1,203 @@
+TImaginarium
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.h
+c000000004E2666430000000000000189
+t1311139395
+s393
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m
+c000000004E2666430000000000000459
+t1311139395
+s1113
+i"ImaginariumAppDelegate.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Imaginarium_Prefix.pch
+c000000004E26664300000000000000BF
+t1311139395
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+c000000004E266643000000000000211C
+t1311139395
+s8476
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app.dSYM
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/Imaginarium
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/Info.plist
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/MainWindow.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/PkgInfo
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/ResourceRules.plist
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/ipod.jpg
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/Imaginarium
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/Imaginarium.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/ImaginariumAppDelegate.o
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/Imaginarium
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/Imaginarium.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/ImaginariumAppDelegate.o
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/ipod.jpg
+c000000004E2666430000000000031816
+t1311139395
+s202774
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m
+c000000004E2666430000000000000175
+t1311139395
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-cgnwqcxepjjkhdcsduzdyoadewet/Imaginarium_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-coxdvpdevnbknugjcjyosrndirlj/Imaginarium_Prefix.pch.gch
+t2
+s0
+
+NImaginarium-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333535534#333535534#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain333535534#18446744073709551615#0#0(1@0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/ImaginariumAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/ImaginariumAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/Classes/ImaginariumAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphoneos/Imaginarium.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/Imaginarium.app/ipod.jpg ipod.jpg
+r0
+
+CCreateUniversalBinary /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/Imaginarium normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/Imaginarium
+r0
+
+CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv6/Imaginarium normal armv6
+r0
+
+CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Imaginarium.build/Debug-iphoneos/Imaginarium.build/Objects-normal/armv7/Imaginarium normal armv7
+r0
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app/Info.plist Imaginarium-Info.plist
+r0
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-cgnwqcxepjjkhdcsduzdyoadewet/Imaginarium_Prefix.pch.gch Imaginarium_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imaginarium_Prefix-coxdvpdevnbknugjcjyosrndirlj/Imaginarium_Prefix.pch.gch Imaginarium_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug-iphoneos/Imaginarium.app
+r0
+
