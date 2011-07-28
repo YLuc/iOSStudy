@@ -1,0 +1,73 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Psychologist */ = {
+		activeExec = 0;
+		executables = (
+			9F8E8DE913E0CDCE0078BE7C /* Psychologist */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 9F8E8DE913E0CDCE0078BE7C /* Psychologist */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Psychologist */;
+		codeSenseManager = 9F8E8DF413E0CDED0078BE7C /* Code sense */;
+		executables = (
+			9F8E8DE913E0CDCE0078BE7C /* Psychologist */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 333499854;
+			PBXWorkspaceStateSaveDate = 333499854;
+		};
+		sourceControlManager = 9F8E8DF313E0CDED0078BE7C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Psychologist_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	9F8E8DE913E0CDCE0078BE7C /* Psychologist */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Psychologist;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	9F8E8DF313E0CDED0078BE7C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	9F8E8DF413E0CDED0078BE7C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

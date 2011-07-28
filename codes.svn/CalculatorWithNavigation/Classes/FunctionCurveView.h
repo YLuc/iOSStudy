@@ -10,7 +10,8 @@
 
 
 @interface FunctionCurveView : UIView {
-
+	CGFloat scale;
 }
 
+@property CGFloat scale;
 @end
