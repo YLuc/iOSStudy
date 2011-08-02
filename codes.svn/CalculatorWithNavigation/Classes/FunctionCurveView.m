@@ -11,13 +11,46 @@
 
 @implementation FunctionCurveView
 
++ (BOOL)scaleIsValid:(CGFloat)aScale
+{
+	return ((aScale > 0) && (aScale <= 1));
+}
+
+#define DEFAULT_SCALE 0.90
+
+- (CGFloat)scale
+{
+	return [FunctionCurveView scaleIsValid:scale] ? scale : DEFAULT_SCALE;
+}
+
+- (void)setScale:(CGFloat)newScale
+{
+	if ([FunctionCurveView scaleIsValid:newScale]) {
+		if (newScale != scale) {
+			scale = newScale;
+			[self setNeedsDisplay];
+		}
+	}
+}
+
+- (void)setup
+{
+	self.contentMode = UIViewContentModeRedraw;
+}
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
+		[self setup];
     }
     return self;
 }
+
+- (void)awakeFromNib
+{
+	[self setup];
+}
+
 
 - (void)drawLineFrom:(CGPoint)startPoint to:(CGPoint)endPoint withContext:(CGContextRef)context {
 	UIGraphicsPushContext(context);
@@ -49,8 +82,20 @@
 	startPoint.y = endPoint.y = self.bounds.origin.y + self.bounds.size.height / 2;
 	[self drawLineFrom: startPoint to:endPoint withContext: context];
 	
+	//scale
+	int scalerNum = 6;
+	self.scale
+	
 }
 
+- (void)pinch:(UIPinchGestureRecognizer *)gesture
+{
+	if ((gesture.state == UIGestureRecognizerStateChanged) ||
+		(gesture.state == UIGestureRecognizerStateEnded)) {
+		//self.scale *= gesture.scale;
+		gesture.scale = 1;
+	}
+}
 
 - (void)dealloc {
     [super dealloc];

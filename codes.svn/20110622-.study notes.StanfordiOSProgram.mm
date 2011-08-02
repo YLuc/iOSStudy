@@ -1702,7 +1702,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1311670380476" ID="ID_1613582225" MODIFIED="1311677326451">
+<node CREATED="1311670380476" ID="ID_1613582225" MODIFIED="1311761649476">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1773,6 +1773,207 @@
 <node CREATED="1311680640829" ID="ID_1054899461" MODIFIED="1311680640829" TEXT=""/>
 </node>
 <node CREATED="1311680670819" ID="ID_946558359" MODIFIED="1311680700345" TEXT="&quot;universual psychologist&quot;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1311776508736" ID="ID_1547178933" MODIFIED="1311776511165" POSITION="left" TEXT="9">
+<node CREATED="1311776512177" ID="ID_1244448666" MODIFIED="1311776512177" TEXT="">
+<node CREATED="1311776512459" ID="ID_1226244600" MODIFIED="1311776724213">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Setting a UIView&#8217;s frame</b>
+    </p>
+    <p>
+      Who&#8217;s responsible for this?
+    </p>
+    <p>
+      <b>UIImageView </b>
+    </p>
+    <p>
+      <b>UIWebView </b>
+    </p>
+    <p>
+      <b>UIScrollView</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311834162566" ID="ID_1336474789" MODIFIED="1311834162566" TEXT="">
+<node CREATED="1311834163118" ID="ID_52261518" MODIFIED="1311834243669">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#22823;&#21040;&#23567;&#65306;
+    </p>
+    <p>
+      navigationView
+    </p>
+    <p>
+      view
+    </p>
+    <p>
+      subView
+    </p>
+    <p>
+      frame
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      frame&#30001;&#21019;&#24314;&#24182;&#26174;&#31034;&#23427;&#30340;view&#26469;&#24314;&#31435;
+    </p>
+    <p>
+      &#34429;&#28982;&#25105;&#20204;&#29992;IB&#25805;&#20316;&#27809;&#26377;&#31649;frame&#65292;&#20854;&#23454;&#24050;&#32463;&#33258;&#21160;set&#20102;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1311835906219" ID="ID_528687388" MODIFIED="1311835914154" TEXT="UIScrollView">
+<node CREATED="1311835782226" ID="ID_1956102205" MODIFIED="1311835818748" TEXT="contentInset.top &#x548c; contentInset.bottom&#x4e3a;&#x4e86;&#x8ba9;&#x5f00; top&#x7684;navigation bar &#x548c;&#x4e0b;&#x9762;&#x7684; tabBar"/>
+<node CREATED="1311836500731" ID="ID_1785158774" MODIFIED="1311836504147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      affine
+    </p>
+    <p>
+      *[&#1241;'fain]
+    </p>
+    <p>
+      a. &#20223;&#23556;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1311841703264" ID="ID_805530034" MODIFIED="1311841705399" TEXT="demo">
+<node CREATED="1311841706464" ID="ID_674360937" MODIFIED="1311844488984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UIImage
+    </p>
+    <p>
+      UIImageView
+    </p>
+    <p>
+      &#36825;&#20004;&#20010;&#36830;&#30528;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UIScrollView
+    </p>
+    <p>
+      &#29992; scrollView addSubview &#36830;&#25509;&#19978;&#20004;&#20010;view
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;pinch&#25805;&#20316;
+    </p>
+    <p>
+      viewForZoomingInScrollView
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1311844851846" ID="ID_1347897097" MODIFIED="1311844853000" POSITION="left" TEXT="10">
+<node CREATED="1311844853949" ID="ID_700451378" MODIFIED="1311844853949" TEXT="">
+<node CREATED="1311844854113" ID="ID_61982485" MODIFIED="1311844859904">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TableView
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1311844862102" ID="ID_356589517" MODIFIED="1311844862102" TEXT="">
+<node CREATED="1311844862306" ID="ID_611112329" MODIFIED="1311844904361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>UITableView </b>
+    </p>
+    <p>
+      <b>UITableViewDataSource </b>
+    </p>
+    <p>
+      <b>UITableViewCell </b>
+    </p>
+    <p>
+      <b>UITableViewDelegate </b>
+    </p>
+    <p>
+      <b>UITableViewController </b>
+    </p>
+    <p>
+      <b>Demo</b>
+    </p>
+    <p>
+      Vocabulous
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1312209758622" ID="ID_424139510" MODIFIED="1312209758622" TEXT="">
+<node CREATED="1312209758854" ID="ID_478615461" MODIFIED="1312209806483">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      edit &#26102;&#65292;&#38656;&#35201;&#25226; model&#20063;&#25163;&#24037;&#20462;&#25913;&#65292;&#21542;&#21017;&#20986;&#38169; exception
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1312210314291" ID="ID_956182363" MODIFIED="1312210327107">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Very common for dataSource and delegate to be the same object
+    </p>
+    <p>
+      Usually the Controller of the MVC in which the UITableView is part of the (or is the entire) View.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
