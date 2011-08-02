@@ -1,11 +1,12 @@
 TVocabulous
 v7
 r0
-t333934692.100996
+t333945153.588500
 cCheck dependencies
 cProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Info.plist Vocabulous-Info.plist
 cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/MainWindow.xib
-cProcessPCH /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch Vocabulous_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/Vocabulous.app/allClasses.xcclassmodel Classes/allClasses.xcclassmodel
+cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch Vocabulous_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -15,8 +16,8 @@ cGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocab
 cTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004E08758E0000000000000132
-t1309177230
+c000000004DD419A40000000000000132
+t1305745828
 s306
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
@@ -45,112 +46,112 @@ t1275359586
 s30700048
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m
-c000000004E26B24B0000000000001112
-t1311158859
+c000000004E2666440000000000001112
+t1311139396
 s4370
 i"WordListTableViewController.h"
 i"DefinitionViewController.h"
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.h
-c000000004E26B24B0000000000000145
-t1311158859
+c000000004E2666440000000000000145
+t1311139396
 s325
 i<UIKit/UIKit.h>
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m
-c000000004E26B24B0000000000000445
-t1311158859
+c000000004E2666440000000000000445
+t1311139396
 s1093
 i"DefinitionViewController.h"
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.h
-c000000004E26B24B0000000000000158
-t1311158859
+c000000004E2666440000000000000158
+t1311139396
 s344
 i<UIKit/UIKit.h>
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m
-c000000004E26B24B0000000000000374
-t1311158859
+c000000004E2666440000000000000374
+t1311139396
 s884
 i"VocabulousAppDelegate.h"
 i"WordListTableViewController.h"
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/allClasses.xcclassmodel
-c000000004E373A290000000000000088
-t1312242217
+c000000004E3761970000000000000088
+t1312252311
 s136
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/MainWindow.xib
-c000000004E26B24B0000000000002117
-t1311158859
+c000000004E2666440000000000002117
+t1311139396
 s8471
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Vocabulous_Prefix.pch
-c000000004E26B24B00000000000000BD
-t1311158859
+c000000004E26664400000000000000BD
+t1311139396
 s189
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/WordListTableViewController.h
-c000000004E26B24B0000000000000139
-t1311158859
+c000000004E2666440000000000000139
+t1311139396
 s313
 i<UIKit/UIKit.h>
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app
-t1312241890
-s204
+t1312252353
+s238
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app.dSYM
-t1312241890
+t1312252353
 s102
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Info.plist
-t1312241882
+t1312252311
 s603
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/MainWindow.nib
-t1312241884
+t1312252311
 s987
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/PkgInfo
-t1312241882
+t1312252311
 s8
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous
-t1312241890
-s25140
+t1312252353
+s25136
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/allClasses.xcclassmodel
-t2
-s0
+t1312252350
+s136
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/DefinitionViewController.o
-t1312241890
+t1312252352
 s40488
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/Vocabulous.LinkFileList
-c000000004E3738DA00000000000002DC
-t1312241882
+c000000004E37619700000000000002DC
+t1312252311
 s732
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o
-t1312241889
+t1312252352
 s47380
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o
-t1312241889
+t1312252352
 s49584
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o
-t1312241889
+t1312252352
 s6384
 
 N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m
-c000000004E26B24B0000000000000174
-t1311158859
+c000000004E2666440000000000000174
+t1311139396
 s372
 i<UIKit/UIKit.h>
 
@@ -158,18 +159,22 @@ N/var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1312241888
 s10212912
 
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch
+t1312252352
+s15232016
+
 NVocabulous-Info.plist
-c000000004E26B24B000000000000038D
-t1311158859
+c000000004E266644000000000000038D
+t1311139396
 s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies333934692#333934692#0(0"0(0#1#0"2567623312#0"0#
+lSLF07#2@18"Check dependencies333945150#333945150#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/DefinitionViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333934689.963069
-e333934690.231745
+s333945152.787071
+e333945152.895202
 r1
 xCompileC
 xbuild/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/DefinitionViewController.o
@@ -178,11 +183,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@121"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m333934689#333934690#0(0"0(0#0#113"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m2567623312#2511"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/DefinitionViewController.o0#
+lSLF07#2@121"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m333945152#333945152#0(0"0(0#0#113"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m8602337152#2511"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/DefinitionViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/DefinitionViewController.o0#
 
 CCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333934689.411212
-e333934689.638051
+s333945152.535649
+e333945152.674075
 r1
 xCompileC
 xbuild/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o
@@ -191,11 +196,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@118"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m333934689#333934689#0(0"0(0#0#110"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m2567623312#2505"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o0#
+lSLF07#2@118"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m333945152#333945152#0(0"0(0#0#110"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m8590328640#2505"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/VocabulousAppDelegate.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/VocabulousAppDelegate.o0#
 
 CCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333934689.638337
-e333934689.962577
+s333945152.674182
+e333945152.786959
 r1
 xCompileC
 xbuild/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o
@@ -204,11 +209,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@127"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m333934689#333934689#0(0"0(0#0#119"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m2567623312#2520"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o0#
+lSLF07#2@127"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m333945152#333945152#0(0"0(0#0#119"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m8600225568#2520"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/../WordListTableViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/WordListTableViewController.o0#
 
 CCompileC build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333934688.281980
-e333934689.411029
+s333945152.316965
+e333945152.535534
 r1
 xCompileC
 xbuild/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o
@@ -217,7 +222,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m333934688#333934689#0(0"0(0#0#85"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m2567623312#2463"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o0#
+lSLF07#2@93"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m333945152#333945152#0(0"0(0#0#85"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m8600491808#2463"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/main.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/MainWindow.xib
 s333934682.555441
@@ -229,26 +234,32 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF07#2@25"CompileXIB MainWindow.xib333934682#333934684#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#93"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/MainWindow.xib4717520#755"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/MainWindow.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCpResource build/Debug-iphonesimulator/Vocabulous.app/allClasses.xcclassmodel Classes/allClasses.xcclassmodel
-r0
+s333945150.391985
+e333945150.590924
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Vocabulous.app/allClasses.xcclassmodel
+xClasses/allClasses.xcclassmodel
+lSLF07#2@36"Copy Classes/allClasses.xcclassmodel333945150#333945150#0(0"0(0#0#110"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/allClasses.xcclassmodel18859287303159904#660"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Classes/allClasses.xcclassmodel /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app0#
 
 CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous
-s333934690.721749
-e333934690.888534
+s333945153.450949
+e333945153.559481
 r1
 xGenerateDSYMFile
 x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app.dSYM
 x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Vocabulous.app.dSYM build/Debug-iphonesimulator/Vocabulous.app/Vocabulous333934690#333934690#0(0"0(0#0#132"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous2567623312#574"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Vocabulous.app.dSYM build/Debug-iphonesimulator/Vocabulous.app/Vocabulous333945153#333945153#0(0"0(0#0#132"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous8601719936#574"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app.dSYM0#
 
 CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous normal i386
-s333934690.231996
-e333934690.721487
+s333945152.895306
+e333945153.450838
 r1
 xLd
 x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous
 xnormal
 xi386
-lSLF07#2@137"Link /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous333934690#333934690#0(0"0(0#0#0"2567623312#1177"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -filelist /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/Vocabulous.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous0#
+lSLF07#2@137"Link /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous333945152#333945153#0(0"0(0#0#0"8601096384#1177"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -filelist /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Objects-normal/i386/Vocabulous.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Vocabulous0#
 
 CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app/Info.plist Vocabulous-Info.plist
 s333934682.478412
@@ -272,11 +283,24 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile Vocabulous_Prefix.pch333934684#333934688#0(0"0(0#0#100"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Vocabulous_Prefix.pch4231192#2312"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Vocabulous_Prefix.pch -o /var/folders/BS/BSApmEKGEXaqEzCDu7H5ik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch Vocabulous_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333945150.591125
+e333945152.316777
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch
+xVocabulous_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Vocabulous_Prefix.pch333945150#333945152#0(0"0(0#0#100"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Vocabulous_Prefix.pch8600351808#2312"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/Vocabulous-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Vocabulous.build/Debug-iphonesimulator/Vocabulous.build/DerivedSources -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/Vocabulous_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Vocabulous_Prefix-ahkqzcqacwecazbdkffsvpdjsyoa/Vocabulous_Prefix.pch.gch0#
+
 CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app
-s333934690.888704
-e333934690.916480
+s333945153.559580
+e333945153.588444
 r1
 xTouch
 x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app
-lSLF07#2@127"Touch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app333934690#333934690#0(0"0(0#0#0"2567623312#423"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app0#
+lSLF07#2@127"Touch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app333945153#333945153#0(0"0(0#0#0"8601415904#423"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Vocabulous/Vocabulous/build/Debug-iphonesimulator/Vocabulous.app0#
 

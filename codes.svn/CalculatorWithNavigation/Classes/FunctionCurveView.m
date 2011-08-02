@@ -84,7 +84,6 @@
 	
 	//scale
 	int scalerNum = 6;
-	self.scale
 	
 }
 
