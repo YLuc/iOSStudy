@@ -1,0 +1,56 @@
+TImaginarium
+v7
+r1
+cCheck dependencies
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+c000000004E266643000000000000211C
+t1311139395
+s8476
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app/Contents/Resources/ipod.jpg
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/ipod.jpg
+c000000004E2666430000000000031816
+t1311139395
+s202774
+
+NImaginarium-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333535504#333535504#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'333535504#18446744073709551615#0#0(1@0"0(0#1#0"32651522506817640#0"0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/MainWindow.xib
+r0
+
+CCpResource build/Debug/Imaginarium.app/Contents/Resources/ipod.jpg ipod.jpg
+r0
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app/Contents/Info.plist Imaginarium-Info.plist
+r0
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Imaginarium_0/Imaginarium/build/Debug/Imaginarium.app
+r0
+

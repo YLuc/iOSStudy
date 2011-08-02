@@ -1,0 +1,364 @@
+TPsychologist
+v7
+r0
+t333367301.420634
+cCheck dependencies
+cProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Info.plist Psychologist-Info.plist
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib
+cCpResource build/Debug-iphonesimulator/Psychologist.app/PsychologistAppDelegate.h_1.xcclassmodel /Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel
+cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch.gch Psychologist_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/HappinessViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/FaceView.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist normal i386
+cGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist
+cTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004DD419A40000000000000132
+t1305745828
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel
+c000000004E200C9900000000000000AA
+t1310723225
+s170
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.h
+c000000004E266643000000000000013A
+t1311139395
+s314
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m
+c000000004E2666430000000000000306
+t1311139395
+s774
+i"PsychologistViewController.h"
+i"HappinessViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.h
+c000000004E26664300000000000001AD
+t1311139395
+s429
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m
+c000000004E26664300000000000009A2
+t1311139395
+s2466
+i"FaceView.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.h
+c000000004E2666430000000000000211
+t1311139395
+s529
+i<UIKit/UIKit.h>
+i"FaceView.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m
+c000000004E26664300000000000004A9
+t1311139395
+s1193
+i"HappinessViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.h
+c000000004E266643000000000000015D
+t1311139395
+s349
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m
+c000000004E2666430000000000000B00
+t1311139395
+s2816
+i"PsychologistAppDelegate.h"
+i"PsychologistViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib
+c000000004E26664300000000000053AC
+t1311139395
+s21420
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib
+c000000004E2666430000000000002121
+t1311139395
+s8481
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.h
+c000000004E266643000000000000013A
+t1311139395
+s314
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib
+c000000004E266643000000000000675D
+t1311139395
+s26461
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Psychologist_Prefix.pch
+c000000004E26664300000000000000C1
+t1311139395
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app
+t1311674501
+s306
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app.dSYM
+t1311674501
+s102
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/HappinessViewController.nib
+t1311674498
+s1278
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Info.plist
+t1311674496
+s611
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/MainWindow.nib
+t1311674497
+s989
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/PkgInfo
+t1311674496
+s8
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist
+t1311674501
+s26760
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/PsychologistAppDelegate.h_1.xcclassmodel
+t1311674498
+s136
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/PsychologistViewController.nib
+t1311674498
+s2297
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/FaceView.o
+t1311674500
+s40360
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/HappinessViewController.o
+t1311674500
+s42772
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/Psychologist.LinkFileList
+c000000004E2E908000000000000003BA
+t1311674496
+s954
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistAppDelegate.o
+t1311674500
+s49664
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistViewController.o
+t1311674500
+s37836
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/main.o
+t1311674500
+s6396
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m
+c000000004E2666430000000000000175
+t1311139395
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch.gch
+t1311674500
+s15232016
+
+NPsychologist-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333367296#333367296#0(0"0(0#1#0"8618395072#0"0#
+
+CCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/FaceView.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367300.720930
+e333367300.833120
+r1
+xCompileC
+xbuild/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/FaceView.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m333367300#333367300#0(0"0(0#0#103"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m8618659040#2585"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/FaceView.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/FaceView.o0#
+
+CCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/HappinessViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367300.596380
+e333367300.720763
+r1
+xCompileC
+xbuild/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/HappinessViewController.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m333367300#333367300#0(0"0(0#0#118"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m8621070432#2615"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/HappinessViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/HappinessViewController.o0#
+
+CCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367300.486193
+e333367300.596269
+r1
+xCompileC
+xbuild/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistAppDelegate.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m333367300#333367300#0(0"0(0#0#118"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m8626346400#2615"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/PsychologistAppDelegate.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistAppDelegate.o0#
+
+CCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367300.833262
+e333367300.951994
+r1
+xCompileC
+xbuild/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistViewController.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m333367300#333367300#0(0"0(0#0#124"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m8617937664#2624"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Classes/../PsychologistViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/PsychologistViewController.o0#
+
+CCompileC build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367300.264259
+e333367300.486074
+r1
+xCompileC
+xbuild/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/main.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m333367300#333367300#0(0"0(0#0#91"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m8618335584#2569"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/main.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib
+s333367297.578354
+e333367298.170386
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@38"CompileXIB HappinessViewController.xib333367297#333367298#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#112"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib8620525952#801"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/HappinessViewController.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/HappinessViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib
+s333367296.452875
+e333367297.578247
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib333367296#333367297#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#99"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib8621922080#775"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/MainWindow.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib
+s333367298.170583
+e333367298.830395
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@41"CompileXIB PsychologistViewController.xib333367298#333367298#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#115"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib8621070688#807"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/PsychologistViewController.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Psychologist.app/PsychologistAppDelegate.h_1.xcclassmodel /Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel
+s333367298.830509
+e333367298.922302
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Psychologist.app/PsychologistAppDelegate.h_1.xcclassmodel
+x/Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel
+lSLF07#2@111"Copy /Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel333367298#333367298#0(0"0(0#0#106"/Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel8617287552#670"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/codes.svn/downloaded.codes/Psychologist_0/Psychologist/PsychologistAppDelegate.h_1.xcclassmodel /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app0#
+
+CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist
+s333367301.322958
+e333367301.391135
+r1
+xGenerateDSYMFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app.dSYM
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Psychologist.app.dSYM build/Debug-iphonesimulator/Psychologist.app/Psychologist333367301#333367301#0(0"0(0#0#142"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist8622162848#598"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app.dSYM0#
+
+CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist normal i386
+s333367300.952099
+e333367301.322843
+r1
+xLd
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist
+xnormal
+xi386
+lSLF07#2@147"Link /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist333367300#333367301#0(0"0(0#0#0"8617341920#1217"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -filelist /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Objects-normal/i386/Psychologist.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Psychologist0#
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Info.plist Psychologist-Info.plist
+s333367296.420247
+e333367296.452777
+r1
+xProcessInfoPlistFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Info.plist
+xPsychologist-Info.plist
+lSLF07#2@31"Process Psychologist-Info.plist333367296#333367296#0(0"0(0#0#108"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Psychologist-Info.plist31244169097969784#694"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Psychologist-Info.plist -genpkginfo /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app/Info.plist0#
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch.gch Psychologist_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333367298.922528
+e333367300.264096
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch.gch
+xPsychologist_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Psychologist_Prefix.pch333367298#333367300#0(0"0(0#0#108"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Psychologist_Prefix.pch8617338784#2410"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/Psychologist-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Psychologist.build/Debug-iphonesimulator/Psychologist.build/DerivedSources -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/Psychologist_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Psychologist_Prefix-czdothrajnuesrdgolyqorgogfun/Psychologist_Prefix.pch.gch0#
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app
+s333367301.391331
+e333367301.420580
+r1
+xTouch
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app
+lSLF07#2@135"Touch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app333367301#333367301#0(0"0(0#0#0"8621074432#437"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/Psychologist_0/Psychologist/build/Debug-iphonesimulator/Psychologist.app0#
+
