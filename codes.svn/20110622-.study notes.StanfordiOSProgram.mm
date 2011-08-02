@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1308730430629" ID="ID_1540554850" MODIFIED="1308730493954">
+<node CREATED="1308730430629" ID="ID_1540554850" MODIFIED="1312292010918">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -242,8 +242,7 @@
       [ &#31867;&#23545;&#35937;&#21464;&#37327;&#21517;&#160;&#160;&#160;methodNamePart1 : &#21442;&#25968;1&#160; methodNamePart2: &#21442;&#25968;2&#160;]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1308730507775" ID="ID_1265276898" MODIFIED="1309355753303">
@@ -2010,6 +2009,438 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1312282645652" ID="ID_861849332" MODIFIED="1312282649547" POSITION="left" TEXT="debug">
+<node CREATED="1312282650775" ID="ID_212308743" MODIFIED="1312286636162" TEXT="">
+<node CREATED="1312286648637" ID="ID_1714071583" MODIFIED="1312286699857" TEXT="&#x8c03;&#x8bd5;&#x65b9;&#x6cd5;">
+<node CREATED="1312282650947" ID="ID_1759384518" MODIFIED="1312282953313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      build and analyze
+    </p>
+    <p>
+      &#21457;&#29616;&#28508;&#22312; leak &#20043;&#31867;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1312282957393" ID="ID_700833037" MODIFIED="1312282957393" TEXT="">
+<node CREATED="1312282957564" ID="ID_1258498052" MODIFIED="1312283054295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      [[UILabel alloc] iniWithFrame:CFRectMake(10, 130,200, 60)];
+    </p>
+    <p>
+      ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      return gradeLabel; <b>//&#24212;&#35813;&#25913;&#20026; return [gradeLabel autorelease];</b>
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312283312192" ID="ID_1096561242" MODIFIED="1312283372881">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NSString * s; //&#24212;&#35813;&#25913;&#20026; NSString *s = nil;
+    </p>
+    <p>
+      return s;
+    </p>
+    <p>
+      &#38450;&#27490;&#22914;&#26524;&#27809;&#36171;&#20540;&#65292;return&#21487;&#33021;&#26159;&#38169;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312283398727" ID="ID_1745201992" MODIFIED="1312283446846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [self.view addSubiew: classLable];
+    </p>
+    <p>
+      &#21518;&#38754;&#19968;&#23450;&#35201;&#21152;
+    </p>
+    <p>
+      [ classLable release ] ;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312285529834" ID="ID_620876155" MODIFIED="1312285600096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#22909;&#26029;&#28857;&#21518;&#65292;&#20572;&#19979;&#26469;&#26102;&#65292;&#22312; (gdb)&#25552;&#31034;&#31526;&#21518;&#65292;&#38190;&#20837; po&#160;&#160;&#65288;print out&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27604;&#22914;&#65306;
+    </p>
+    <p>
+      po currentPlayer
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1312286935839" ID="ID_1645229706" MODIFIED="1312286948062" TEXT="NSZombie">
+<node CREATED="1312287417904" ID="ID_648465153" MODIFIED="1312287421461">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://www.markj.net/iphone-memory-debug-nszombie/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1312287541023" ID="ID_1365380053" MODIFIED="1312288111315">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xcode&#160;&#160;. groups &amp; files&#160;&#160;executables &#28857;&#21491;&#36793; info button&#160;&#160;&#160;argument&#160; variables to be set in the environment: + &#21495;&#65292; &#38190;&#20837; NSZombie &#21644;&#160;&#160;YES
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1312288139631" ID="ID_911871965" MODIFIED="1312288145431" TEXT="instrument">
+<node CREATED="1312288146746" ID="ID_467032713" MODIFIED="1312288149779" TEXT="leak">
+<node CREATED="1312288150625" ID="ID_879821677" MODIFIED="1312288159404" TEXT="&#x64ad;&#x653e;&#x4e00;&#x4e2a;application&#xff0c;&#x7136;&#x540e; &#x5f55;&#x5236;">
+<node CREATED="1312290315990" ID="ID_1948686055" MODIFIED="1312290336307">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      statistics &#28857;&#20987;&#21518; &#36873;&#160; call tree
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1312290399661" ID="ID_1519421987" MODIFIED="1312290453036" TEXT="&#x6216;&#x8005;&#x4ece; build &#x5230; run with performance tool -&gt; Leaks"/>
+</node>
+<node CREATED="1312291165432" ID="ID_95920428" MODIFIED="1312291170103" TEXT="time profiler">
+<node CREATED="1312291171256" ID="ID_881612862" MODIFIED="1312291186791" TEXT="&#x627e;&#x5230;&#x6700;&#x8017;&#x65f6;&#x7684;&#x8c03;&#x7528;"/>
+</node>
+</node>
+</node>
+<node CREATED="1312286638810" ID="ID_339761124" MODIFIED="1312286640154" TEXT="&#x51fa;&#x9519;&#x7684;&#x5730;&#x65b9;">
+<node CREATED="1312286507431" ID="ID_1809286826" MODIFIED="1312286609975">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @property &#65288;retain &#65289;TYPE instantVariable;
+    </p>
+    <p>
+      self.instantVariable = xxx; //&#21253;&#21547;&#20102;retain&#65292;&#21487;&#20197;&#24102;&#36208;&#21518;&#38754;&#30340;&#20540;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;instantVariable = xxx; //&#20160;&#20040;&#20063;&#24102;&#19981;&#36208;&#65281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;&#19968;&#33324;&#19981;&#35201;&#24536;&#20102;&#29992;&#160; <b>self.</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1312286700350" ID="ID_636323633" MODIFIED="1312286701509" TEXT="&#x8f85;&#x52a9;&#x8bbe;&#x7f6e;">
+<node CREATED="1312283180511" ID="ID_603773940" MODIFIED="1312286785895" TEXT="&#x663e;&#x793a;&#x884c;&#x53f7;&#xff1a;&#xa;  xcode   preference  Text editing   show gutter shwo line numbers"/>
+</node>
+</node>
+</node>
+<node CREATED="1312292012232" ID="ID_1394648003" MODIFIED="1312292017665" POSITION="right" TEXT="11">
+<node CREATED="1312292018780" ID="ID_1853010607" MODIFIED="1312292018780" TEXT="">
+<node CREATED="1312292018986" ID="ID_957047924" MODIFIED="1312292023255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Property Lists
+    </p>
+    <p>
+      Archiving Objects
+    </p>
+    <p>
+      Storing things in the Filesystem
+    </p>
+    <p>
+      SQLite
+    </p>
+    <p>
+      Core Data
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292141400" ID="ID_1104245873" MODIFIED="1312292143050" POSITION="right" TEXT="12">
+<node CREATED="1312292143910" ID="ID_454618341" MODIFIED="1312292143910" TEXT="">
+<node CREATED="1312292144105" ID="ID_1700825037" MODIFIED="1312292161351">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>More Core Data</b>
+    </p>
+    <p>
+      What does the code for the custom NSManagedObject subclasses generated by Xcode look like?
+    </p>
+    <p>
+      Querying for (fetching) objects via NSFetchRequest.
+    </p>
+    <p>
+      <b>Core Data and Table Views</b>
+    </p>
+    <p>
+      NSFetchedResultsController (hooking up your Core Data objects to a UITableView)
+    </p>
+    <p>
+      CoreDataTableViewController (plugs NSFetchedResultsController into a UITableViewController)
+    </p>
+    <p>
+      <b>Demo</b>
+    </p>
+    <p>
+      Core Data
+    </p>
+    <p>
+      Using an NSFetchedResultsController to drive a UITableView
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292192294" ID="ID_805141048" MODIFIED="1312292193562" POSITION="right" TEXT="13">
+<node CREATED="1312292194637" ID="ID_1089453032" MODIFIED="1312292194637" TEXT="">
+<node CREATED="1312292194910" ID="ID_21580027" MODIFIED="1312292204162">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Blocks</b>
+    </p>
+    <p>
+      Language syntax for declaring a function &#8220;on the &#64258;y.&#8221;
+    </p>
+    <p>
+      <b>Grand Central Dispatch</b>
+    </p>
+    <p>
+      C API for leveraging blocks to make writing multithreaded code much easier.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292220510" ID="ID_642500435" MODIFIED="1312292221612" POSITION="right" TEXT="14">
+<node CREATED="1312292222542" ID="ID_1232201227" MODIFIED="1312292222542" TEXT="">
+<node CREATED="1312292222709" ID="ID_1974013511" MODIFIED="1312292231699">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Core Location</b>
+    </p>
+    <p>
+      Framework for specifying locations on the planet
+    </p>
+    <p>
+      <b>MapKit</b>
+    </p>
+    <p>
+      Graphical toolkit for displaying locations on the planet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292296169" ID="ID_485391437" MODIFIED="1312292297376" POSITION="right" TEXT="15">
+<node CREATED="1312292298289" ID="ID_1581847609" MODIFIED="1312292298289" TEXT="">
+<node CREATED="1312292298464" ID="ID_1649520574" MODIFIED="1312292329749">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Finish Shutterbug Map Demo</b>
+    </p>
+    <p>
+      Add thumbnails
+    </p>
+    <p>
+      <b>UITextField and UITextView</b>
+    </p>
+    <p>
+      Editable text &#64257;elds (unlike UILabel which is static text only)
+    </p>
+    <p>
+      <b>Modal View Controllers</b>
+    </p>
+    <p>
+      Temporary, &#8220;don&#8217;t let the user do anything until he or she attends to this&#8221; views
+    </p>
+    <p>
+      <b>UIView Animation </b>
+    </p>
+    <p>
+      Animating changes in a few key UIView properties
+    </p>
+    <p>
+      <b>Core Motion</b>
+    </p>
+    <p>
+      Accelerometer and Gyro inputs
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292347258" ID="ID_1697443359" MODIFIED="1312292348576" POSITION="right" TEXT="16">
+<node CREATED="1312292349489" ID="ID_1284430796" MODIFIED="1312292349489" TEXT="">
+<node CREATED="1312292349697" ID="ID_911902948" MODIFIED="1312292408978">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>UIView Animation</b>
+    </p>
+    <p>
+      One more thing: animating view hierarchy changes
+    </p>
+    <p>
+      <b>UISegmentedControl</b>
+    </p>
+    <p>
+      Compact &#8220;radio button&#8221;-like control
+    </p>
+    <p>
+      <b>Core Motion</b>
+    </p>
+    <p>
+      Accelerometer and Gyro inputs
+    </p>
+    <p>
+      <b>Alerts</b>
+    </p>
+    <p>
+      UIAlertView &amp; UIActionSheet
+    </p>
+    <p>
+      NSTimer
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1312292366597" ID="ID_1051173382" MODIFIED="1312292367794" POSITION="right" TEXT="17">
+<node CREATED="1312292368652" ID="ID_1102736964" MODIFIED="1312292368652" TEXT="">
+<node CREATED="1312292368836" ID="ID_860077465" MODIFIED="1312292431752">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>UIImagePickerController</b>
+    </p>
+    <p>
+      Getting still photos or video from the user (either from camera or photo library)
+    </p>
+    <p>
+      <b>MPMovie[View]PlayerController</b>
+    </p>
+    <p>
+      How to play videos
+    </p>
+    <p>
+      <b>ALAssetsLibrary</b>
+    </p>
+    <p>
+      How to store images or videos in the user&#8217;s photo album
+    </p>
+    <p>
+      <b>Sounds</b>
+    </p>
+    <p>
+      How to play simple sounds and record simple audio snippets
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
