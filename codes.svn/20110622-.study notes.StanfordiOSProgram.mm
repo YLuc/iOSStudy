@@ -2127,8 +2127,7 @@
       http://www.markj.net/iphone-memory-debug-nszombie/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1312287541023" ID="ID_1365380053" MODIFIED="1312288111315">
 <richcontent TYPE="NODE"><html>
@@ -2140,8 +2139,7 @@
       xcode&#160;&#160;. groups &amp; files&#160;&#160;executables &#28857;&#21491;&#36793; info button&#160;&#160;&#160;argument&#160; variables to be set in the environment: + &#21495;&#65292; &#38190;&#20837; NSZombie &#21644;&#160;&#160;YES
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1312288139631" ID="ID_911871965" MODIFIED="1312288145431" TEXT="instrument">
@@ -2157,8 +2155,7 @@
       statistics &#28857;&#20987;&#21518; &#36873;&#160; call tree
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1312290399661" ID="ID_1519421987" MODIFIED="1312290453036" TEXT="&#x6216;&#x8005;&#x4ece; build &#x5230; run with performance tool -&gt; Leaks"/>
@@ -2201,7 +2198,7 @@
 </node>
 <node CREATED="1312292012232" ID="ID_1394648003" MODIFIED="1312292017665" POSITION="right" TEXT="11">
 <node CREATED="1312292018780" ID="ID_1853010607" MODIFIED="1312292018780" TEXT="">
-<node CREATED="1312292018986" ID="ID_957047924" MODIFIED="1312292023255">
+<node CREATED="1312292018986" ID="ID_957047924" MODIFIED="1313292987747">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2223,8 +2220,139 @@
       Core Data
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1312440202390" ID="ID_132568758" MODIFIED="1312440202390" TEXT="">
+<node CREATED="1312440202675" ID="ID_726289370" MODIFIED="1312440228854" TEXT="&#x4fdd;&#x6301;&#x6570;&#x636e;&#xff08;&#x6c38;&#x4e45;&#xff09;"/>
+<node CREATED="1312441091614" ID="ID_791671265" MODIFIED="1312441093242" TEXT="&#xff1f;">
+<node CREATED="1312441094300" ID="ID_1917841838" MODIFIED="1312441148983" TEXT="&#x5199;&#x5165;&#x7684;&#x8fc7;&#x7a0b;"/>
+<node CREATED="1312441149351" ID="ID_207131184" MODIFIED="1312441163601" TEXT="NSData &#x5fc5;&#x987b;&#x7ecf;&#x8fc7;&#x624d;&#x80fd;&#x5199;&#x5165;&#xff1f;"/>
+</node>
+</node>
+<node CREATED="1313292924764" ID="ID_827589080" MODIFIED="1313292924764" TEXT="">
+<node CREATED="1313292925604" ID="ID_605769928" MODIFIED="1313292925604" TEXT="">
+<node CREATED="1312292018986" ID="ID_929830668" MODIFIED="1313293000975">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Property Lists
+    </p>
+    <p>
+      Archiving Objects
+    </p>
+    <p>
+      Storing things in the Filesystem
+    </p>
+    <p>
+      SQLite
+    </p>
+    <p>
+      Core Data
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1312440202390" ID="ID_736250419" MODIFIED="1313303090034">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Property Lists
+    </p>
+  </body>
 </html>
 </richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1313293020423" ID="ID_96886689" MODIFIED="1313293044002" TEXT="Good for &#x201c;preferences&#x201d; and &#x201c;settings.&#x201d;">
+<node CREATED="1313293055384" ID="ID_391797093" MODIFIED="1313293056123" TEXT="never want your application&#x2019;s actual &#x201c;data&#x201d; store d here."/>
+</node>
+<node CREATED="1313293093861" ID="ID_377527803" MODIFIED="1313293094776" TEXT="NSUserDefaults"/>
+<node CREATED="1313293161309" ID="ID_167207814" MODIFIED="1313293193681" TEXT=" NSData &#x548c; plist &#xff08;NSArray, NSDictionary, NSString, NSData, NSDate, NSNumber.&#xff09; &#x4e4b;&#x95f4;&#x7684;&#x8f6c;&#x6362;">
+<node CREATED="1313293218475" ID="ID_1553424678" MODIFIED="1313293644657" TEXT="NSPropertyListSerialization&#x662f;&#x4e00;&#x4e2a;NSObject&#x7684;&#x5b50;&#x7c7b;"/>
+</node>
+<node CREATED="1313294347343" ID="ID_249280828" MODIFIED="1313294377410" TEXT="&#x7136;&#x540e;&#x628a; NSData  writeToURL">
+<node COLOR="#338800" CREATED="1313294383187" ID="ID_386213213" MODIFIED="1313294396573" TEXT="file, URL (&#x7528; JSON), "/>
+</node>
+</node>
+<node CREATED="1313292924764" ID="ID_1364566082" MODIFIED="1313294500722" TEXT="Archiving Object">
+<node CREATED="1313294501496" ID="ID_1168045326" MODIFIED="1313294516409" TEXT="ANY object graph"/>
+<node CREATED="1313294536834" ID="ID_1245324229" MODIFIED="1313294537518" TEXT="Requires all objects in the graph to implement NSCoding protocol">
+<node CREATED="1313295047214" ID="ID_23620058" MODIFIED="1313295047214" TEXT="">
+<node CREATED="1313295049371" ID="ID_694592648" MODIFIED="1313295072791" TEXT="NSCoder&#x5c31;&#x597d;&#x6bd4; plist">
+<node CREATED="1313294545186" ID="ID_99963363" MODIFIED="1313294547026">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      - (void)encodeWithCoder:(NSCoder *)coder;
+    </p>
+    <p>
+      - initWithCoder:(NSCoder *)coder;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1313294751701" ID="ID_1344254543" MODIFIED="1313294841798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20445;&#23384;object&#30340;&#19977;&#20010;&#37327;&#65292;&#29992;&#26469;&#25551;&#36848;
+    </p>
+    <p>
+      scale =
+    </p>
+    <p>
+      expression
+    </p>
+    <p>
+      origin = &#22312;&#23631;&#24149;&#19978;&#30340;&#20301;&#32622;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1313294938045" ID="ID_1929559513" MODIFIED="1313295111104">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28982;&#21518;&#65292;&#25226; NSCoder&#29992; NSKeyed[Un]Archiver &#20889;&#20837;&#35835;&#20986;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1313295251244" ID="ID_344788424" MODIFIED="1313295265387" TEXT="&#x5373; NSCoder &#x548c;  NSData&#x4e4b;&#x95f4;">
+<node CREATED="1313295282457" ID="ID_298623002" MODIFIED="1313295290533" TEXT="&#x7136;&#x540e;&#x9700;&#x8981;&#x5199;&#x5165;media"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1313302775087" ID="ID_517381410" MODIFIED="1313302781284" TEXT="file system">
+<node CREATED="1313302781967" ID="ID_1786663987" MODIFIED="1313302828510" TEXT="&#x8bfb;&#x5199;&#x662f; NSData&#x4e2d;&#x7684;&#xff0c;&#x5176;&#x4ed6;&#x64cd;&#x4f5c;&#x662f; NSFileManager&#x7684;"/>
+</node>
+<node CREATED="1313302952300" ID="ID_89543710" MODIFIED="1313302958559" TEXT="SQLite">
+<node CREATED="1313302959205" ID="ID_524781467" MODIFIED="1313302980827" TEXT="&#x4e0d;&#x80fd;&#x826f;&#x597d;&#x7684;&#x5e76;&#x53d1;">
+<node CREATED="1313302988704" ID="ID_413776817" MODIFIED="1313303006415" TEXT="API&#x662f;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x7684; C &#x63a5;&#x53e3;&#xff0c;&#x4e0d;&#x662f; OO&#x7684;"/>
+</node>
+</node>
+<node CREATED="1313303042504" ID="ID_677719104" MODIFIED="1313303085570" TEXT="Core Data">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1313303047220" ID="ID_1432088035" MODIFIED="1313303057294" TEXT="&#x89e3;&#x51b3; SQLite&#x7684;&#x95ee;&#x9898;"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2264,8 +2392,7 @@
       Using an NSFetchedResultsController to drive a UITableView
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2290,8 +2417,7 @@
       C API for leveraging blocks to make writing multithreaded code much easier.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2316,8 +2442,7 @@
       Graphical toolkit for displaying locations on the planet
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2360,8 +2485,7 @@
       Accelerometer and Gyro inputs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2401,8 +2525,7 @@
       NSTimer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2439,8 +2562,7 @@
       How to play simple sounds and record simple audio snippets
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
