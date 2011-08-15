@@ -219,11 +219,20 @@ N/Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/build/Debug-ip
 t1311062945
 s8
 
+N/Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/test.mom
+t2
+s0
+
 N/Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/main.m
 c000000004E2399C70000000000000171
 t1310955975
 s369
 i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/test.xcdatamodel
+c000000004E4927FD0000000000000088
+t1313417213
+s136
 
 N/Users/lyf/codes/CalculatorWithNavigation/CalculatorViewController.xib
 c000000004E23FCAB0000000000012481
@@ -723,6 +732,9 @@ r1
 xCompileXIB
 x/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib332755745#332755746#0(0"0(0#0#56"/Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib8640580320#596"    cd /Users/lyf/codes/CalculatorWithNavigation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lyf/codes/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/MainWindow.nib /Users/lyf/codes/CalculatorWithNavigation/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CDataModelCompile /Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/test.mom /Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/test.xcdatamodel
+r0
 
 CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/build/Debug-iphonesimulator/CalculatorWithNavigation.app/CalculatorWithNavigation
 s333975643.565136

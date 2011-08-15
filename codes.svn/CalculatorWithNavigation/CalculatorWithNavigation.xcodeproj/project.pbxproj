@@ -10,6 +10,7 @@
 		1C7F091E13D427A3001F328F /* FunctionCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F091C13D427A3001F328F /* FunctionCurveViewController.m */; };
 		1C7F091F13D427A3001F328F /* FunctionCurveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7F091D13D427A3001F328F /* FunctionCurveViewController.xib */; };
 		1C88F28E13D4602000D66C9A /* FunctionCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C88F28D13D4602000D66C9A /* FunctionCurveView.m */; };
+		1C8934CD13F9441B002BF3E3 /* test.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C8934CC13F9441B002BF3E3 /* test.xcdatamodel */; };
 		1CAA537C13D3D21C0034EF47 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA537913D3D21C0034EF47 /* CalculatorBrain.m */; };
 		1CAA537D13D3D21C0034EF47 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA537B13D3D21C0034EF47 /* CalculatorViewController.m */; };
 		1CAA537F13D3D55C0034EF47 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA537E13D3D55C0034EF47 /* CalculatorViewController.xib */; };
@@ -27,6 +28,7 @@
 		1C7F091D13D427A3001F328F /* FunctionCurveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FunctionCurveViewController.xib; path = Classes/FunctionCurveViewController.xib; sourceTree = "<group>"; };
 		1C88F28C13D4602000D66C9A /* FunctionCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionCurveView.h; sourceTree = "<group>"; };
 		1C88F28D13D4602000D66C9A /* FunctionCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionCurveView.m; sourceTree = "<group>"; };
+		1C8934CC13F9441B002BF3E3 /* test.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = test.xcdatamodel; path = codes_git/iOSStudy/codes.svn/CalculatorWithNavigation/test.xcdatamodel; sourceTree = DEVELOPER_DIR; };
 		1CAA537813D3D21C0034EF47 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		1CAA537913D3D21C0034EF47 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		1CAA537A13D3D21C0034EF47 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				1CAA537E13D3D55C0034EF47 /* CalculatorViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CalculatorWithNavigation-Info.plist */,
+				1C8934CC13F9441B002BF3E3 /* test.xcdatamodel */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				1CAA537D13D3D21C0034EF47 /* CalculatorViewController.m in Sources */,
 				1C7F091E13D427A3001F328F /* FunctionCurveViewController.m in Sources */,
 				1C88F28E13D4602000D66C9A /* FunctionCurveView.m in Sources */,
+				1C8934CD13F9441B002BF3E3 /* test.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
