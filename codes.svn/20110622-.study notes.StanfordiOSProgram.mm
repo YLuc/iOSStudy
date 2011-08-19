@@ -2263,8 +2263,7 @@
       Property Lists
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1313293020423" ID="ID_96886689" MODIFIED="1313293044002" TEXT="Good for &#x201c;preferences&#x201d; and &#x201c;settings.&#x201d;">
 <node CREATED="1313293055384" ID="ID_391797093" MODIFIED="1313293056123" TEXT="never want your application&#x2019;s actual &#x201c;data&#x201d; store d here."/>
@@ -2329,8 +2328,7 @@
       &#28982;&#21518;&#65292;&#25226; NSCoder&#29992; NSKeyed[Un]Archiver &#20889;&#20837;&#35835;&#20986;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1313295251244" ID="ID_344788424" MODIFIED="1313295265387" TEXT="&#x5373; NSCoder &#x548c;  NSData&#x4e4b;&#x95f4;">
 <node CREATED="1313295282457" ID="ID_298623002" MODIFIED="1313295290533" TEXT="&#x7136;&#x540e;&#x9700;&#x8981;&#x5199;&#x5165;media"/>
 </node>
@@ -2348,7 +2346,46 @@
 </node>
 <node CREATED="1313303042504" ID="ID_677719104" MODIFIED="1313303085570" TEXT="Core Data">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1313303047220" ID="ID_1432088035" MODIFIED="1313303057294" TEXT="&#x89e3;&#x51b3; SQLite&#x7684;&#x95ee;&#x9898;"/>
+<node CREATED="1313303047220" ID="ID_1432088035" MODIFIED="1313303057294" TEXT="&#x89e3;&#x51b3; SQLite&#x7684;&#x95ee;&#x9898;">
+<node CREATED="1313409198533" ID="ID_628094336" MODIFIED="1313409198533" TEXT="">
+<node CREATED="1313409199160" ID="ID_885688786" MODIFIED="1313409355135" TEXT=" .xcdatamodel &#x6587;&#x4ef6;">
+<node CREATED="1313409487616" ID="ID_632211175" MODIFIED="1313409506400" TEXT="&#xff1f;&#x591a;&#x4e2a;&#x7248;&#x672c;&#x5565;&#x610f;&#x601d;&#xff1f;&#x4e3a;&#x5565;&#x8fd9;&#x4e2a;&#x4e1c;&#x897f;&#x6709;&#x591a;&#x7248;&#x672c;&#xff1f;"/>
+<node CREATED="1313409507894" ID="ID_1168855781" MODIFIED="1313409507894" TEXT="">
+<node CREATED="1313409508698" ID="ID_1515334158" MODIFIED="1313409520335" TEXT="Think of it like a .xib for our data mapping between the database and our objects"/>
+<node CREATED="1313410319451" ID="ID_1272297065" MODIFIED="1313410333934" TEXT="Usually we drag  the .xcdatamodeld directory into our Resources folder.">
+<node CREATED="1313410321225" ID="ID_1696988793" MODIFIED="1313559246248" TEXT="An Entity maps to a &#x201c;table&#x201d; in the database and maps to an &#x201c;object&#x201d; in our code.">
+<arrowlink DESTINATION="ID_1353872067" ENDARROW="Default" ENDINCLINATION="302;0;" ID="Arrow_ID_1332626916" STARTARROW="None" STARTINCLINATION="302;0;"/>
+</node>
+<node CREATED="1313411535524" ID="ID_1089671164" MODIFIED="1313411536173" TEXT="An Attribute maps to a &#x201c;column&#x201d; in the database and maps to a property in our objects.">
+<node CREATED="1313545656787" ID="ID_640344080" MODIFIED="1313545693989" TEXT="key : attribute name">
+<node CREATED="1313559186984" ID="ID_1134209691" MODIFIED="1313559191510" TEXT="valueForKey:/setValueForKey:">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1313559194093" ID="ID_1427252857" MODIFIED="1313559200298" TEXT="&#x9ebb;&#x70e6;"/>
+</node>
+</node>
+<node CREATED="1313559208698" ID="ID_1353872067" MODIFIED="1313559246248" TEXT="&#x518d;&#x7528; xcode &#x751f;&#x6210; &#x4e0e; attribute&#x5bf9;&#x5e94;&#x7684; @property">
+<node CREATED="1313559241408" ID="ID_758184675" MODIFIED="1313559561242" TEXT="&#x5728;&#x6709; Core Data &#x7684; entity  &#xff08;.xcdatamodel&#x6587;&#x4ef6;&#xff09;&#x5efa;&#x7acb;&#x524d;&#xff0c;new-&gt;file &#x4e2d;&#x662f;&#x6ca1;&#x6709; managed object file&#x8fd9;&#x4e2a;&#x9009;&#x9879;&#x7684;&#xff0c;&#x4e00;&#x65e6;&#x5efa;&#x7acb;&#x4e86; entity&#x5c31;&#x6709;&#x4e86;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1313559333819" ID="ID_775653482" MODIFIED="1313559680922" TEXT="NSManagedObject &#x5b50;&#x7c7b;">
+<arrowlink DESTINATION="ID_140726634" ENDARROW="Default" ENDINCLINATION="479;0;" ID="Arrow_ID_1727901831" STARTARROW="None" STARTINCLINATION="479;0;"/>
+<node CREATED="1313559564080" ID="ID_859917223" MODIFIED="1313559572351" TEXT="&#x591a;&#x4e86;&#x4e00;&#x5bf9;  .h .m&#x6587;&#x4ef6;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1313559646591" ID="ID_140726634" MODIFIED="1313559680922" TEXT="&#x4ece; .h .m &#x6587;&#x4ef6; &#x53cd;&#x5411;&#x751f;&#x6210;  .xcdatamodel&#x4e2d;&#x7684;attribute">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1313545573699" ID="ID_686718807" MODIFIED="1313545573699" TEXT="">
+<node CREATED="1313545575095" ID="ID_159615081" MODIFIED="1313545583787" TEXT="NSManagedObjectContext ?&#x4ec0;&#x4e48;&#x73a9;&#x610f;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2393,6 +2430,27 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1313676054436" ID="ID_1054904745" MODIFIED="1313676054436" TEXT="">
+<node CREATED="1313676054730" ID="ID_379988899" MODIFIED="1313676069463">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>@dynamic</b>&#160;means &#8220;my class will &#64257;gure out how to respond to this at runtime.&#8221;
+    </p>
+    <p>
+      Uses a runtime mechanism for an object to intercept messages it normally wouldn&#8217;t respond to.
+    </p>
+    <p>
+      In this case, NSManagedObject turns these into calls to valueForKey:/setValueForKey:.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
