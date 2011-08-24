@@ -2447,8 +2447,25 @@
       In this case, NSManagedObject turns these into calls to valueForKey:/setValueForKey:.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1313754879439" ID="ID_18176523" MODIFIED="1313754879439" TEXT="">
+<node CREATED="1313754880684" ID="ID_1850001350" MODIFIED="1313754882267" TEXT="Demo">
+<node CREATED="1313754883414" ID="ID_169678534" MODIFIED="1313754883414" TEXT="">
+<node CREATED="1313754889271" ID="ID_1147925010" MODIFIED="1313762798856">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1 new&#19968;&#20010;project&#26102;&#65292;&#21246;&#19978; Use core data for stroage
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2476,6 +2493,253 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1313806181444" ID="ID_1192726517" MODIFIED="1313806181444" TEXT="">
+<node CREATED="1313806181685" ID="ID_1556997027" MODIFIED="1313806358839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [aDictionary enumerateKeysAndObjectsUsingBlock: <font color="#ff0000"><b>^</b></font><font color="#0000ff">&#160;(id key, id value, BOOL *stop) { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;NSLog(@&#8220;value for key %@ is %@&#8221;, key, value); </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;if ([@&#8220;ENOUGH&#8221; isEqualToString:key]) { </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*stop = YES; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font color="#0000ff">}</font>];
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1313806310817" ID="ID_492179384" MODIFIED="1313806310817" TEXT="">
+<node CREATED="1313806311204" ID="ID_77056642" MODIFIED="1313806311204" TEXT=""/>
+</node>
+</node>
+<node CREATED="1314079046877" ID="ID_396452709" MODIFIED="1314079233399" TEXT="block">
+<node CREATED="1314079052377" ID="ID_1070462074" MODIFIED="1314082930994">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 id="contents" tabindex="0" role="main">
+      http://developer.apple.com/library/mac/#featuredarticles/BlocksGCD/_index.html
+    </h3>
+    <h3 id="contents" tabindex="0" role="main">
+      &#23601;&#26159; &#21311;&#21517;&#20989;&#25968;&#25351;&#38024;
+    </h3>
+    <h3 id="contents" tabindex="0" role="main">
+      Block Objects
+    </h3>
+    <h3 id="contents" tabindex="0" role="main">
+      Block objects (informally, &#8220;blocks&#8221;) are an extension to C, as well as Objective-C and C++, that make it easy for programmers to define self-contained units of work. Blocks are similar to &#8212; but far more powerful than &#8212;<b>&#160;traditional function pointers</b>. The key differences are:
+    </h3>
+    <h3 id="contents" tabindex="0" role="main">
+      Blocks can be defined inline, as &#8220;anonymous functions.&#8221;
+    </h3>
+    <h3 id="contents" tabindex="0" role="main">
+      Blocks capture read-only copies of local variables, similar to &#8220;closures&#8221; in other languages
+    </h3>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1314079381064" ID="ID_332210471" MODIFIED="1314080646248" TEXT="A block variable looks like a function pointer, except with a caret (&#x2018;^&#x2019;) instead of an asterisk (&#x2018;*&#x2019;).    &#xa;&#xa; void (^my_block)(void);  "/>
+<node CREATED="1314079727361" ID="ID_1827430871" MODIFIED="1314079821696">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LV&#65306;
+    </p>
+    <p>
+      &#160;&quot;int&#160;&#160;(*p)(int.int);
+    </p>
+    <p>
+      &#20989;&#25968;&#25351;&#38024;&#30001; &#21442;&#25968; &#21644; &#36820;&#22238;&#20540;&#21807;&#19968;&#30830;&#23450;&#31867;&#22411;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989;&#25968;&#25351;&#38024;&#36890;&#24120;&#30340;&#29992;&#36896;&#20043;&#19968;&#26159;&#25226;&#25351;&#38024;&#20026;&#21442;&#25968;&#20256;&#36882;&#21040;&#20854;&#20182;&#20989;&#25968;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1314080510541" ID="ID_1629345061" MODIFIED="1314080514167" TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;"/>
+<node CREATED="1314080575268" ID="ID_816410910" MODIFIED="1314080575811" TEXT="&#x5229;&#x7528;&#x5b83;&#x6765;&#x907f;&#x514d;C&#x540d;&#x5b57;&#x7a7a;&#x95f4;&#x7684;&#x51b2;&#x7a81;&#x3002; "/>
+</node>
+<node CREATED="1314082582800" ID="ID_150171867" MODIFIED="1314082584726" TEXT="&#x201c;&#x5f02;&#x6b65;&#x201d;&#x3001;&#x201c;&#x540e;&#x53f0;&#x7ebf;&#x7a0b;&#x201d;&#x3001;&#x201c;&#x975e;&#x963b;&#x585e;&#x201d;&#x8fd9;&#x4e9b;&#x6982;&#x5ff5;&#x662f;&#x6709;&#x4e00;&#x4e9b;&#x5c0f;&#x533a;&#x522b;&#x7684;"/>
+<node CREATED="1314082926104" ID="ID_688944627" MODIFIED="1314082944880" TEXT="anonymous functions">
+<node CREATED="1314082926912" ID="ID_1781406295" MODIFIED="1314082928168" TEXT="my_block = ^(void){ printf(&quot;hello world\n&quot;); };"/>
+</node>
+</node>
+<node CREATED="1314083032886" ID="ID_167808057" MODIFIED="1314083034918" TEXT="&#x4f5c;&#x7528;">
+<node CREATED="1314083035729" ID="ID_345905725" MODIFIED="1314083038550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      So how can we use this to our advantage?
+    </p>
+    <p>
+      Get blocking activity (e.g. network) out of our user-interface (main) thread.
+    </p>
+    <p>
+      Do time-consuming activity concurrently in another thread.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1314083112716" ID="ID_558261998" MODIFIED="1314083112716" TEXT="">
+<node CREATED="1314083114313" ID="ID_1850079125" MODIFIED="1314083114313" TEXT="">
+<node CREATED="1314083114761" ID="ID_1940702550" MODIFIED="1314083181935">
+<richcontent TYPE="NODE">&lt;html&gt;
+  &lt;body&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;
+          Synchronization
+        &lt;/p&gt;
+        &lt;p&gt;
+          Grand Central Dispatch provides four primary mechanisms for tracking 
+          completion of asynchronous work:
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;b&gt;synchronous dispatch
+&lt;/b&gt;        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;b&gt;callbacks
+&lt;/b&gt;        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;b&gt;groups
+&lt;/b&gt;        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;b&gt;semaphores&lt;/b&gt;
+        &lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/article&gt;
+    
+
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richcontent>
+<node CREATED="1314083538768" ID="ID_1694730920" MODIFIED="1314083858543" TEXT="Dispatch&#xff1a;&#x8c03;&#x5ea6;">
+<node CREATED="1314086697501" ID="ID_585431836" MODIFIED="1314086737518">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dispatch queues: &#22909;&#22788;&#65306;&#27604;&#32447;&#31243;&#32534;&#30721;&#31616;&#21333;&#19988;&#26356;&#39640;&#25928;&#12290;http://developer.apple.com/library/mac/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1314086782953" ID="ID_1065299411" MODIFIED="1314086785311" TEXT="GCD">
+<node CREATED="1314086976153" ID="ID_1841696235" MODIFIED="1314086977228" TEXT="http://en.wikipedia.org/wiki/Grand_Central_Dispatch"/>
+<node CREATED="1314087695665" ID="ID_1034238976" MODIFIED="1314087844361" TEXT="main queue&#x662f; &#x8be5;&#x8fdb;&#x7a0b; &#x7684;&#x4e3b;&#x7ebf;&#x7a0b;"/>
+<node CREATED="1314087850610" ID="ID_1435872456" MODIFIED="1314092389837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;queue&#20013;&#30340;&#21508;&#20010;block&#26159;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#24182;&#34892;&#36816;&#34892;&#65288;&#31867;&#20284;&#20110;&#22810;&#32447;&#31243;&#65289;&#65292;
+    </p>
+    <p>
+      &#20063;&#21487;&#20197;&#39034;&#24207;&#36816;&#34892;&#65288;&#21407;&#23376;&#25805;&#20316;&#65292;&#33021;&#22815;&#23454;&#29616;&#20114;&#26021;&#25805;&#20316;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24635;&#24402;&#19981;&#20445;&#35777;&#22312;&#19981;&#21516;&#30340;&#32447;&#31243;&#20013;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1314089483199" ID="ID_419670879" MODIFIED="1314089658121">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p id="contents" tabindex="0" role="main">
+      Blocks submitted to dispatch queues are executed on a pool of threads fully managed by the system. No guarantee is made as to the thread on which a task executes. GCD offers three kinds of queues:
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      ?
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      Main: tasks execute serially on your application&#8217;s main thread
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      ?
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      Concurrent: tasks are dequeued in FIFO order, but run concurrently and can finish in any order.
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      ?
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      Serial: tasks execute one at a time in FIFO order
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      
+    </p>
+    <p id="contents" tabindex="0" role="main">
+      http://developer.apple.com/library/mac/#documentation/Performance/Reference/GCD_libdispatch_Ref/Reference/reference.html
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2589,7 +2853,7 @@
 </node>
 <node CREATED="1312292366597" ID="ID_1051173382" MODIFIED="1312292367794" POSITION="right" TEXT="17">
 <node CREATED="1312292368652" ID="ID_1102736964" MODIFIED="1312292368652" TEXT="">
-<node CREATED="1312292368836" ID="ID_860077465" MODIFIED="1312292431752">
+<node CREATED="1312292368836" ID="ID_860077465" MODIFIED="1314083860233" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
