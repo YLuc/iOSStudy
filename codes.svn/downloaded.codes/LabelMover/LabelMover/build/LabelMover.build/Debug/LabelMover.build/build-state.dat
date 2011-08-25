@@ -1,0 +1,63 @@
+TLabelMover
+v7
+r1
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+c000000004E2666430000000000005122
+t1311139395
+s20770
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+c000000004E266643000000000000451C
+t1311139395
+s17692
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+c000000004E2666430000000000004E4D
+t1311139395
+s20045
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/Resources/AskerViewController.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/Resources/LabelMoverViewController.nib
+t2
+s0
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NLabelMover-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+r0
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+r0
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+r0
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app/Contents/Info.plist LabelMover-Info.plist
+r0
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug/LabelMover.app
+r0
+

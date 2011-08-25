@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	1C87C4541406505100574877 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC4F347A128CC78C00A8635D /* AskerViewController.m */;
+		name = "AskerViewController.m: 19";
+		rLen = 0;
+		rLoc = 351;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 0;
+	};
+	1C87C4551406505100574877 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC4F3479128CC78C00A8635D /* AskerViewController.h */;
+		name = "AskerViewController.h: 18";
+		rLen = 11;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 0;
+	};
+	1C87C4561406505100574877 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC4F3479128CC78C00A8635D /* AskerViewController.h */;
+		name = "AskerViewController.h: 18";
+		rLen = 11;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 0;
+	};
+	1C984917140524DF0069F063 /* LabelMover */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LabelMover;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1C98492F140525010069F063 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1C984930140525010069F063 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D6058900D05DD3D006BFB54 /* LabelMover */ = {
+		activeExec = 0;
+		executables = (
+			1C984917140524DF0069F063 /* LabelMover */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1C984917140524DF0069F063 /* LabelMover */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LabelMover */;
+		codeSenseManager = 1C984930140525010069F063 /* Code sense */;
+		executables = (
+			1C984917140524DF0069F063 /* LabelMover */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1473,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335951566;
+			PBXWorkspaceStateSaveDate = 335951566;
+		};
+		perUserProjectItems = {
+			1C87C4541406505100574877 /* PBXTextBookmark */ = 1C87C4541406505100574877 /* PBXTextBookmark */;
+			1C87C4551406505100574877 /* PBXTextBookmark */ = 1C87C4551406505100574877 /* PBXTextBookmark */;
+			1C87C4561406505100574877 /* PBXTextBookmark */ = 1C87C4561406505100574877 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1C98492F140525010069F063 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EC4F3479128CC78C00A8635D /* AskerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 804}}";
+			sepNavSelRange = "{371, 11}";
+			sepNavVisRange = "{0, 828}";
+		};
+	};
+	EC4F347A128CC78C00A8635D /* AskerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 900}}";
+			sepNavSelRange = "{351, 0}";
+			sepNavVisRange = "{0, 1198}";
+		};
+	};
+}
