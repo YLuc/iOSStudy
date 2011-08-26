@@ -2521,7 +2521,43 @@
   </body>
 </html></richcontent>
 <node CREATED="1313806310817" ID="ID_492179384" MODIFIED="1313806310817" TEXT="">
-<node CREATED="1313806311204" ID="ID_77056642" MODIFIED="1313806311204" TEXT=""/>
+<node CREATED="1313806311204" ID="ID_77056642" MODIFIED="1314149333561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#160;&#160;Problem!&#160;&#160;UIKit calls can only happen in the main thread!&#160;&#160;
+    </p>
+    <p>
+      <b>&#25361;&#20986;&#22312;main thread&#20013;&#36816;&#34892;&#30340;block&#65292;&#25918;&#21040;main queue&#20013;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#160;&#160;Problem!&#160;&#160;NSManagedObjectContext is not&#160;thread safe,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;so we can&#8217;t call photo.URL in downloadQueue&#8217;s thread!
+    </p>
+    <p>
+      <b>&#160;thread safe</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3&#160;&#160;dispatch_release(downloadQueue);&#160;&#160;// won&#8217;t actually go away until queue is empty
+    </p>
+    <p>
+      <b>&#19981;release queue&#20250;leak</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1314079046877" ID="ID_396452709" MODIFIED="1314079233399" TEXT="block">
@@ -2550,8 +2586,7 @@
       Blocks capture read-only copies of local variables, similar to &#8220;closures&#8221; in other languages
     </h3>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1314079381064" ID="ID_332210471" MODIFIED="1314080646248" TEXT="A block variable looks like a function pointer, except with a caret (&#x2018;^&#x2019;) instead of an asterisk (&#x2018;*&#x2019;).    &#xa;&#xa; void (^my_block)(void);  "/>
 <node CREATED="1314079727361" ID="ID_1827430871" MODIFIED="1314079821696">
@@ -2576,8 +2611,7 @@
       &#20989;&#25968;&#25351;&#38024;&#36890;&#24120;&#30340;&#29992;&#36896;&#20043;&#19968;&#26159;&#25226;&#25351;&#38024;&#20026;&#21442;&#25968;&#20256;&#36882;&#21040;&#20854;&#20182;&#20989;&#25968;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1314080510541" ID="ID_1629345061" MODIFIED="1314080514167" TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;"/>
 <node CREATED="1314080575268" ID="ID_816410910" MODIFIED="1314080575811" TEXT="&#x5229;&#x7528;&#x5b83;&#x6765;&#x907f;&#x514d;C&#x540d;&#x5b57;&#x7a7a;&#x95f4;&#x7684;&#x51b2;&#x7a81;&#x3002; "/>
 </node>
@@ -2603,47 +2637,12 @@
       Do time-consuming activity concurrently in another thread.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1314083112716" ID="ID_558261998" MODIFIED="1314083112716" TEXT="">
 <node CREATED="1314083114313" ID="ID_1850079125" MODIFIED="1314083114313" TEXT="">
-<node CREATED="1314083114761" ID="ID_1940702550" MODIFIED="1314083181935">
-<richcontent TYPE="NODE">&lt;html&gt;
-  &lt;body&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;
-          Synchronization
-        &lt;/p&gt;
-        &lt;p&gt;
-          Grand Central Dispatch provides four primary mechanisms for tracking 
-          completion of asynchronous work:
-        &lt;/p&gt;
-        &lt;p&gt;
-          &lt;b&gt;synchronous dispatch
-&lt;/b&gt;        &lt;/p&gt;
-        &lt;p&gt;
-          &lt;b&gt;callbacks
-&lt;/b&gt;        &lt;/p&gt;
-        &lt;p&gt;
-          &lt;b&gt;groups
-&lt;/b&gt;        &lt;/p&gt;
-        &lt;p&gt;
-          &lt;b&gt;semaphores&lt;/b&gt;
-        &lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;/article&gt;
-    
-
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richcontent>
-<node CREATED="1314083538768" ID="ID_1694730920" MODIFIED="1314083858543" TEXT="Dispatch&#xff1a;&#x8c03;&#x5ea6;">
+<node CREATED="1314083114761" ID="ID_1940702550" MODIFIED="1314149033458" TEXT="          Synchronization&#xa;&#xa;          Grand Central Dispatch provides four primary mechanisms for tracking &#xa;          completion of asynchronous work:&#xa;synchronous dispatch&#xa;callbacks&#xa;groups&#xa;semaphores">
+<node CREATED="1314083538768" ID="ID_1694730920" MODIFIED="1314148984821" TEXT="Dispatch&#xff1a;&#x8c03;&#x5ea6;">
 <node CREATED="1314086697501" ID="ID_585431836" MODIFIED="1314086737518">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2654,8 +2653,7 @@
       dispatch queues: &#22909;&#22788;&#65306;&#27604;&#32447;&#31243;&#32534;&#30721;&#31616;&#21333;&#19988;&#26356;&#39640;&#25928;&#12290;http://developer.apple.com/library/mac/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1314086782953" ID="ID_1065299411" MODIFIED="1314086785311" TEXT="GCD">
 <node CREATED="1314086976153" ID="ID_1841696235" MODIFIED="1314086977228" TEXT="http://en.wikipedia.org/wiki/Grand_Central_Dispatch"/>
@@ -2685,8 +2683,7 @@
       &#24635;&#24402;&#19981;&#20445;&#35777;&#22312;&#19981;&#21516;&#30340;&#32447;&#31243;&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1314089483199" ID="ID_419670879" MODIFIED="1314089658121">
 <richcontent TYPE="NODE"><html>
@@ -2728,8 +2725,7 @@
       http://developer.apple.com/library/mac/#documentation/Performance/Reference/GCD_libdispatch_Ref/Reference/reference.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2765,6 +2761,28 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1314151681574" ID="ID_3104957" MODIFIED="1314151681574" TEXT="">
+<node CREATED="1314151681884" ID="ID_409106493" MODIFIED="1314151709374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How do you get a CLLocation?
+    </p>
+    <p>
+      Almost always from a CLLocationManager (sent to you via its delegate).
+    </p>
+    <p>
+      Note that none of this works in the simulator, so this stuff can only be tested on a device.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1314152628335" ID="ID_1703710694" MODIFIED="1314152632297" TEXT="annotations&#xff1a;&#x6ce8;&#x91ca;"/>
+</node>
 </node>
 </node>
 </node>
@@ -2808,6 +2826,112 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1314152964583" ID="ID_1081379274" MODIFIED="1314152964583" TEXT="">
+<node CREATED="1314152965154" ID="ID_1337267892" MODIFIED="1314152971307" TEXT="grab bag&#xa;&#xa;&lt; grab bag &gt;&#xa;&lt;&lt;&#x540d;&#x8bcd;&gt;&gt;&#xa;1 &#x5e78;&#x8fd0;&#x888b;, &#x6478;&#x5f69;&#x888b;&#xa;  &#x8d85;&#x5e02;&#x6216;&#x5546;&#x5e97;&#x6240;&#x7528;&#xa;2 &#x5404;&#x5f0f;&#x5404;&#x6837;&#x7684;&#x4e1c;&#x897f;, &#x6df7;&#x6742;, &#x805a;&#x96c6;&#xa;&lt;&lt;&#x540d;&#x8bcd;&gt;&gt;&#xa;grab.ber"/>
+</node>
+<node CREATED="1314188765261" ID="ID_764208979" MODIFIED="1314188765261" TEXT="">
+<node CREATED="1314188767639" ID="ID_1500105277" MODIFIED="1314188771502" TEXT="demo">
+<node CREATED="1314188771503" ID="ID_1610011151" MODIFIED="1314257714924" TEXT="Modal view">
+<node CREATED="1314188772081" ID="ID_187470189" MODIFIED="1314188781237" TEXT="moving Label">
+<node CREATED="1314252502502" ID="ID_808665504" MODIFIED="1314259020440" TEXT="">
+<node CREATED="1314188842104" ID="ID_1771569163" MODIFIED="1314188845710" TEXT="view based">
+<node CREATED="1314252562943" ID="ID_1565913969" MODIFIED="1314252573146" TEXT="IBOutlet UILable">
+<node CREATED="1314252576123" ID="ID_1266467158" MODIFIED="1314252608998" TEXT="viewDidUnload"/>
+<node CREATED="1314252614089" ID="ID_270174124" MODIFIED="1314252618559" TEXT="dealloc"/>
+</node>
+<node CREATED="1314252618899" ID="ID_425692856" MODIFIED="1314257695388" TEXT="&#x7b2c;&#x4e8c;&#x4e2a; viewController&#xff0c;&#x6a2a;&#x5411;&#x6ed1;&#x52a8;&#x9f20;&#x6807;&#x540e;&#xff0c;&#x4ece;&#x4e0b;&#x65b9;&#x5f39;&#x5165;">
+<node CREATED="1314257762307" ID="ID_415528885" MODIFIED="1314257762307" TEXT="">
+<node CREATED="1314257762987" ID="ID_1382070177" MODIFIED="1314257780030" TEXT="Label &#x662f; copy &#x800c;&#x4e0d;&#x7528; mutable&#xff0c;&#x8fd9;&#x6837;&#x66f4;&#x597d;"/>
+<node CREATED="1314257796878" ID="ID_603163427" MODIFIED="1314257809086" TEXT="IBoutlet UITextField">
+<node CREATED="1314252576123" ID="ID_1694365638" MODIFIED="1314252608998" TEXT="viewDidUnload"/>
+<node CREATED="1314252614089" ID="ID_987732057" MODIFIED="1314252618559" TEXT="dealloc"/>
+</node>
+<node CREATED="1314257883267" ID="ID_1298109837" MODIFIED="1314259515545">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -&#65288;void) viewWillAppear &#26174;&#31034;&#20986;&#26469;&#30340;&#26102;&#20505;&#160;&#160;[self.anserField <b>becomeFirstREsponder</b>];
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1314258108709" ID="ID_1424247519" MODIFIED="1314258135855" TEXT="&#x52a0;&#x5165; protocol  &lt;UITextFieldDelegate&gt;">
+<node CREATED="1314259529296" ID="ID_1028316800" MODIFIED="1314265227855">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#26469;&#25484;&#25511; test field delegate&#30340;
+    </p>
+    <p>
+      UITextField class&#20013;&#30340;method&#37117;&#26159;&#25511;&#21046;&#32534;&#36753;&#20070;&#20889;&#31561;&#30340;&#65292;&#19982;&#21709;&#24212;&#25805;&#20316;&#20107;&#20214;&#27809;&#20851;&#31995;
+    </p>
+    <p>
+      &#19982;&#21709;&#24212;&#25805;&#20316;&#20107;&#20214;&#37117;&#26159;&#22312;delegate&#20013;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1314261593621" ID="ID_1118745503" MODIFIED="1314261644361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#26576;&#20123;&#29366;&#24577;&#20986;&#29616;&#26102;&#65292;&#27604;&#22914;&#25353;&#19979;return&#25353;&#38062;&#65292;
+    </p>
+    <p>
+      &#23601;&#20250; call &#36825;&#20010;delegate&#20013;&#30340;&#26576;&#20010;method
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1314261773130" ID="ID_536685182" MODIFIED="1314261782445" TEXT="textFieldShouldReturn">
+<node CREATED="1314261814123" ID="ID_1618678702" MODIFIED="1314261891345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20854;&#20013;&#35201;&#25226; resignFirstResponder&#30340;&#24773;&#20917;&#32771;&#34385;&#36827;&#21435;&#65292;
+    </p>
+    <p>
+      &#23601;&#26159; &#29992;&#25143;&#28857;&#20987;&#20102;edit field&#20197;&#22806;&#30340;&#37096;&#20998;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32780;resignFirstResponder&#20250;&#35843;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_1145696841" ENDARROW="Default" ENDINCLINATION="299;0;" ID="Arrow_ID_1146698963" STARTARROW="None" STARTINCLINATION="299;0;"/>
+</node>
+</node>
+<node CREATED="1314261782559" ID="ID_1145696841" MODIFIED="1314261891345" TEXT="testFieldDidEndEditing"/>
+</node>
+</node>
+</node>
+<node CREATED="1314259469678" ID="ID_1522162245" MODIFIED="1314259482175" TEXT=" "/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -2848,6 +2972,15 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1314188535955" ID="ID_23004983" MODIFIED="1314188535955" TEXT="">
+<node CREATED="1314188536172" ID="ID_1224522519" MODIFIED="1314188536172" TEXT="">
+<node CREATED="1314188537261" ID="ID_278824004" MODIFIED="1314188541456" TEXT="demo">
+<node CREATED="1314188541852" ID="ID_1540976795" MODIFIED="1314188541852" TEXT="">
+<node CREATED="1314188542059" ID="ID_1644499417" MODIFIED="1314188545674" TEXT="NSTimer"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
