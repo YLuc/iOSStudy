@@ -1,0 +1,314 @@
+TLabelMover
+v7
+r0
+t335881472.085228
+cCheck dependencies
+cProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/Info.plist LabelMover-Info.plist
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+cCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+cProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch.gch LabelMover_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/AskerViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover normal i386
+cGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover
+cTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004DD419A40000000000000132
+t1305745828
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.h
+c000000004E266643000000000000033C
+t1311139395
+s828
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+c000000004E2666430000000000005122
+t1311139395
+s20770
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.h
+c000000004E266643000000000000033C
+t1311139395
+s828
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m
+c000000004E2666430000000000000512
+t1311139395
+s1298
+i"AskerViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.h
+c000000004E26664300000000000001F9
+t1311139395
+s505
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m
+c000000004E2666430000000000000A9A
+t1311139395
+s2714
+i"LabelMoverAppDelegate.h"
+i"LabelMoverViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.h
+c000000004E2666430000000000000193
+t1311139395
+s403
+i<UIKit/UIKit.h>
+i"AskerViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m
+c000000004E2666430000000000000846
+t1311139395
+s2118
+i"LabelMoverViewController.h"
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+c000000004E266643000000000000451C
+t1311139395
+s17692
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMover_Prefix.pch
+c000000004E26664300000000000000BD
+t1311139395
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+c000000004E2666430000000000004E4D
+t1311139395
+s20045
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app
+t1314188672
+s272
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app.dSYM
+t1314188672
+s102
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/AskerViewController.nib
+t1314188669
+s1505
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/Info.plist
+t1314188667
+s603
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover
+t1314188671
+s28120
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMoverViewController.nib
+t1314188668
+s1275
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/MainWindow.nib
+t1314188668
+s1129
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/PkgInfo
+t1314188667
+s8
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/AskerViewController.o
+t1314188671
+s45216
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMover.LinkFileList
+c000000004E54ED7B00000000000002D4
+t1314188667
+s724
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverAppDelegate.o
+t1314188671
+s48028
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverViewController.o
+t1314188671
+s53656
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/main.o
+t1314188671
+s6384
+
+N/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m
+c000000004E2666430000000000000174
+t1311139395
+s372
+i<UIKit/UIKit.h>
+
+N/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch.gch
+t1314188670
+s15232016
+
+NLabelMover-Info.plist
+c000000004E266643000000000000038D
+t1311139395
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335881467#335881467#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/AskerViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335881471.556676
+e335881471.663030
+r1
+xCompileC
+xbuild/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/AskerViewController.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m335881471#335881471#0(0"0(0#0#111"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m8625721952#2504"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/../AskerViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/AskerViewController.o0#
+
+CCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverAppDelegate.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335881471.316682
+e335881471.423782
+r1
+xCompileC
+xbuild/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverAppDelegate.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m335881471#335881471#0(0"0(0#0#110"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m8619880160#2505"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverAppDelegate.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverAppDelegate.o0#
+
+CCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverViewController.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335881471.423897
+e335881471.556559
+r1
+xCompileC
+xbuild/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverViewController.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m335881471#335881471#0(0"0(0#0#113"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m8598950272#2511"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/Classes/LabelMoverViewController.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMoverViewController.o0#
+
+CCompileC build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/main.o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335881471.143291
+e335881471.316569
+r1
+xCompileC
+xbuild/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/main.o
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m335881471#335881471#0(0"0(0#0#85"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m8607003744#2463"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources -include /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/main.m -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+s335881468.628067
+e335881469.193970
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB AskerViewController.xib335881468#335881469#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#102"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib8616199360#773"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/AskerViewController.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/AskerViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+s335881468.110632
+e335881468.627962
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@39"CompileXIB LabelMoverViewController.xib335881468#335881468#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#107"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib8621343840#783"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMoverViewController.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMoverViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+s335881467.474096
+e335881468.110529
+r1
+xCompileXIB
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib335881467#335881468#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#93"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib8615777984#755"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/MainWindow.nib /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app.dSYM /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover
+s335881471.996869
+e335881472.063131
+r1
+xGenerateDSYMFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app.dSYM
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/LabelMover.app.dSYM build/Debug-iphonesimulator/LabelMover.app/LabelMover335881471#335881472#0(0"0(0#0#132"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover8626269920#574"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app.dSYM0#
+
+CLd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover normal i386
+s335881471.663140
+e335881471.996760
+r1
+xLd
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover
+xnormal
+xi386
+lSLF07#2@137"Link /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover335881471#335881471#0(0"0(0#0#0"8622351072#1177"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -filelist /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/Objects-normal/i386/LabelMover.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/LabelMover0#
+
+CProcessInfoPlistFile /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/Info.plist LabelMover-Info.plist
+s335881467.409267
+e335881467.473975
+r1
+xProcessInfoPlistFile
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/Info.plist
+xLabelMover-Info.plist
+lSLF07#2@29"Process LabelMover-Info.plist335881467#335881467#0(0"0(0#0#100"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMover-Info.plist27303270316900452#670"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility LabelMover-Info.plist -genpkginfo /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app/Info.plist0#
+
+CProcessPCH /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch.gch LabelMover_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335881469.194238
+e335881471.143136
+r1
+xProcessPCH
+x/var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch.gch
+xLabelMover_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile LabelMover_Prefix.pch335881469#335881471#0(0"0(0#0#100"/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMover_Prefix.pch8622138944#2312"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-generated-files.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-own-target-headers.hmap -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-all-target-headers.hmap -iquote /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/LabelMover-project-headers.hmap -F/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/include -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources/i386 -I/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/LabelMover.build/Debug-iphonesimulator/LabelMover.build/DerivedSources -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/LabelMover_Prefix.pch -o /var/folders/yv/yv8PTiKMFsanZz2Fd1Q2jU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LabelMover_Prefix-dpcmbxstoytbpjbwncqlkdwwbfbs/LabelMover_Prefix.pch.gch0#
+
+CTouch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app
+s335881472.063227
+e335881472.085177
+r1
+xTouch
+x/Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app
+lSLF07#2@127"Touch /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app335881472#335881472#0(0"0(0#0#0"8626174048#423"    cd /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Developer/codes_git/iOSStudy/codes.svn/downloaded.codes/LabelMover/LabelMover/build/Debug-iphonesimulator/LabelMover.app0#
+
