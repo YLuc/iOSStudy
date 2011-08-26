@@ -2555,8 +2555,7 @@
       <b>&#19981;release queue&#20250;leak</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2778,8 +2777,7 @@
       Note that none of this works in the simulator, so this stuff can only be tested on a device.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1314152628335" ID="ID_1703710694" MODIFIED="1314152632297" TEXT="annotations&#xff1a;&#x6ce8;&#x91ca;"/>
 </node>
@@ -2846,14 +2844,17 @@
 <node CREATED="1314252576123" ID="ID_1694365638" MODIFIED="1314252608998" TEXT="viewDidUnload"/>
 <node CREATED="1314252614089" ID="ID_987732057" MODIFIED="1314252618559" TEXT="dealloc"/>
 </node>
-<node CREATED="1314257883267" ID="ID_1298109837" MODIFIED="1314259515545">
+<node CREATED="1314257883267" ID="ID_1298109837" MODIFIED="1314329312241">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      -&#65288;void) viewWillAppear &#26174;&#31034;&#20986;&#26469;&#30340;&#26102;&#20505;&#160;&#160;[self.anserField <b>becomeFirstREsponder</b>];
+      -&#65288;void) viewWillAppear &#26174;&#31034;&#20986;&#26469;&#30340;&#26102;&#20505;
+    </p>
+    <p>
+      &#160;&#160;[self.anserField <b>becomeFirstREsponder</b>];
     </p>
   </body>
 </html>
@@ -2876,8 +2877,7 @@
       &#19982;&#21709;&#24212;&#25805;&#20316;&#20107;&#20214;&#37117;&#26159;&#22312;delegate&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1314261593621" ID="ID_1118745503" MODIFIED="1314261644361">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2891,8 +2891,7 @@
       &#23601;&#20250; call &#36825;&#20010;delegate&#20013;&#30340;&#26576;&#20010;method
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1314261773130" ID="ID_536685182" MODIFIED="1314261782445" TEXT="textFieldShouldReturn">
 <node CREATED="1314261814123" ID="ID_1618678702" MODIFIED="1314261891345">
 <richcontent TYPE="NODE"><html>
@@ -2913,8 +2912,7 @@
       &#32780;resignFirstResponder&#20250;&#35843;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1145696841" ENDARROW="Default" ENDINCLINATION="299;0;" ID="Arrow_ID_1146698963" STARTARROW="None" STARTINCLINATION="299;0;"/>
 </node>
 </node>
