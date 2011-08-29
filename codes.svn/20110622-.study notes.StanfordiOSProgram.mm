@@ -2857,8 +2857,7 @@
       &#160;&#160;[self.anserField <b>becomeFirstREsponder</b>];
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1314258108709" ID="ID_1424247519" MODIFIED="1314258135855" TEXT="&#x52a0;&#x5165; protocol  &lt;UITextFieldDelegate&gt;">
 <node CREATED="1314259529296" ID="ID_1028316800" MODIFIED="1314265227855">
@@ -2878,22 +2877,26 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1314261593621" ID="ID_1118745503" MODIFIED="1314261644361">
+<node CREATED="1314261773130" ID="ID_536685182" MODIFIED="1314261782445" TEXT="textFieldShouldReturn">
+<node CREATED="1314261593621" ID="ID_1118745503" MODIFIED="1314595077148">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#24403;&#26576;&#20123;&#29366;&#24577;&#20986;&#29616;&#26102;&#65292;&#27604;&#22914;&#25353;&#19979;return&#25353;&#38062;&#65292;
+      &#25353;&#19979;return&#25353;&#38062;&#65292;
     </p>
     <p>
-      &#23601;&#20250; call &#36825;&#20010;delegate&#20013;&#30340;&#26576;&#20010;method
+      &#23601;&#20250; call &#36825;&#20010;delegate&#20013;
+    </p>
+    <p>
+      <b>textFieldShouldReturn</b>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1314261773130" ID="ID_536685182" MODIFIED="1314261782445" TEXT="textFieldShouldReturn">
-<node CREATED="1314261814123" ID="ID_1618678702" MODIFIED="1314261891345">
+</node>
+<node CREATED="1314261814123" ID="ID_1618678702" MODIFIED="1314595152355">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2903,21 +2906,24 @@
       &#20854;&#20013;&#35201;&#25226; resignFirstResponder&#30340;&#24773;&#20917;&#32771;&#34385;&#36827;&#21435;&#65292;
     </p>
     <p>
-      &#23601;&#26159; &#29992;&#25143;&#28857;&#20987;&#20102;edit field&#20197;&#22806;&#30340;&#37096;&#20998;
+      &#23601;&#26159; &#29992;&#25143;&#28857;&#20987;&#20102;edit field&#20197;&#22806;&#30340;&#37096;&#20998;&#65292;&#25152;&#20197;
     </p>
     <p>
       
     </p>
     <p>
-      &#32780;resignFirstResponder&#20250;&#35843;&#29992;
+      resignFirstResponder&#65292;&#35753;text field &#22833;&#21435;&#28966;&#28857;&#65292;&#23601;&#20250;&#35302;&#21457;
+    </p>
+    <p>
+      textFieldDidEndEditing
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <arrowlink DESTINATION="ID_1145696841" ENDARROW="Default" ENDINCLINATION="299;0;" ID="Arrow_ID_1146698963" STARTARROW="None" STARTINCLINATION="299;0;"/>
 </node>
 </node>
 <node CREATED="1314261782559" ID="ID_1145696841" MODIFIED="1314261891345" TEXT="testFieldDidEndEditing"/>
-</node>
 </node>
 </node>
 <node CREATED="1314259469678" ID="ID_1522162245" MODIFIED="1314259482175" TEXT=" "/>
